@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34dd4318.chunk.css",
+    "main.js": "/static/js/main.0ba39535.chunk.js",
+    "main.js.map": "/static/js/main.0ba39535.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cea588d5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cea588d5.js.map",
+    "static/css/2.c60feeff.chunk.css": "/static/css/2.c60feeff.chunk.css",
+    "static/js/2.434845be.chunk.js": "/static/js/2.434845be.chunk.js",
+    "static/js/2.434845be.chunk.js.map": "/static/js/2.434845be.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f74fbde171339493ea4a717ea76cbdb2.js": "/precache-manifest.f74fbde171339493ea4a717ea76cbdb2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.c60feeff.chunk.css.map": "/static/css/2.c60feeff.chunk.css.map",
+    "static/css/main.34dd4318.chunk.css.map": "/static/css/main.34dd4318.chunk.css.map",
+    "static/js/2.434845be.chunk.js.LICENSE.txt": "/static/js/2.434845be.chunk.js.LICENSE.txt",
+    "static/media/btc-side.png": "/static/media/btc-side.15084ab6.png",
+    "static/media/drone.png": "/static/media/drone.9593daa4.png",
+    "static/media/fiscalvid.mp4": "/static/media/fiscalvid.36476f96.mp4",
+    "static/media/App.css": "/static/media/home.6f3be0a5.png",
+    "static/media/logo.svg": "/static/media/logo.18bea4e6.svg",
+    "static/media/node.png": "/static/media/node.a1b2c4fd.png",
+    "static/media/react-white.png": "/static/media/react-white.2367001e.png",
+    "static/media/react.png": "/static/media/react.4a883f0a.png",
+    "static/media/safe_dentistry.svg": "/static/media/safe_dentistry.c12813e1.svg",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/space_cutout.png": "/static/media/space_cutout.6cdbfad0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cea588d5.js",
+    "static/css/2.c60feeff.chunk.css",
+    "static/js/2.434845be.chunk.js",
+    "static/css/main.34dd4318.chunk.css",
+    "static/js/main.0ba39535.chunk.js"
+  ]
+}
