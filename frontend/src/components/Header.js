@@ -23,7 +23,6 @@ export class Header extends Component {
     return (
       <div style={{ marginTop: '0px', height: '100vh', backgroundImage: 'none' }} className="welcome-area" id="welcome">
         <div className="header-text">
-          <div className="">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-2 col-md-2">
               </div>
@@ -62,7 +61,6 @@ export class Header extends Component {
             </div>
           </div>
         </div>
-      </div>
     )
   }
 }

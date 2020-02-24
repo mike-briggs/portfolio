@@ -13,7 +13,6 @@ export class Capstone extends Component {
 
       <div style={{ marginTop: '0px', backgroundImage: 'none' }} className="welcome-area vh140" id="sci">
         <div className="header-text">
-          <div className="">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-5 col-md-1">
                 <img style={{ width: '100%', borderRadius: '20px' }} src={drone}></img>
@@ -41,7 +40,6 @@ export class Capstone extends Component {
             </div>
           </div>
         </div>
-      </div>
     )
   }
 }

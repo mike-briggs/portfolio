@@ -18,7 +18,6 @@ export class Biotech extends Component {
     return (
       <div style={{ marginTop: '0px', backgroundImage: 'none' }} className="welcome-area vh140" id="biotech">
         <div className="header-text">
-          <div className="">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-6 col-md-6 col-sm-12 col-12 spacingImage">
                 <img style={{ paddingLeft: '30px', paddingRight: '30px', verticalAlign: 'middle', width: '100%', height: 'auto' }} src={biotech}></img>
@@ -53,7 +52,6 @@ export class Biotech extends Component {
             </div>
           </div>
         </div>
-      </div>
     )
   }
 }

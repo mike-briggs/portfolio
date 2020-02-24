@@ -14,7 +14,6 @@ export class Course extends Component {
     return (
       <div style={{ marginTop: '0px', backgroundColor: '#fbfbfb', backgroundImage: 'none' }} className="welcome-area" id="sci">
         <div className="header-text">
-          <div className="">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-1 col-md-1"></div>
               <div className="col-lg-4 col-md-12 col-sm-12 col-12 spacingCourse">
@@ -79,7 +78,7 @@ export class Course extends Component {
             </div>
           </div>
         </div>
-      </div>
+      
     )
   }
 }

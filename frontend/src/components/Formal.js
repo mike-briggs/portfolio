@@ -17,7 +17,6 @@ export class Formal extends Component {
     return (
       <div style={{ marginTop: '0px', backgroundImage: 'none' }} className="welcome-area" id="sci">
         <div className="header-text">
-          <div className="">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-1 col-md-1"></div>
               <div className="col-lg-6 col-md-12 col-sm-12 col-12 spacingSci">
@@ -54,7 +53,6 @@ export class Formal extends Component {
             </div>
           </div>
         </div>
-      </div>
     )
   }
 }

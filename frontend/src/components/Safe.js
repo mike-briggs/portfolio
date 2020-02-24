@@ -16,7 +16,6 @@ export class Safe extends Component {
     return (
       <div style={{ marginTop: '0px', backgroundImage: 'none' }} className="welcome-area vh130" id="safe">
         <div className="header-text">
-          <div className="">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-1 col-md-1"></div>
               <div className="col-lg-5 col-md-5 col-sm-12 spacingSafe">
@@ -46,7 +45,6 @@ export class Safe extends Component {
             </div>
           </div>
         </div>
-      </div>
     )
   }
 }

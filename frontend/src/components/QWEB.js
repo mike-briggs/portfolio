@@ -15,7 +15,6 @@ export class QWEB extends Component {
     return (
       <div style={{ marginTop: '0px' }} className="qweb-area" id="qweb">
         <div className="header-text">
-          <div className="">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-3 col-md-3">
               </div>
@@ -54,7 +53,6 @@ export class QWEB extends Component {
             </div>
           </div>
         </div>
-      </div>
     )
   }
 }

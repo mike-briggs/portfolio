@@ -18,7 +18,6 @@ export class Fiscal extends Component {
     return (
       <div style={{ marginTop: '0px', opacity: '0.9' }} className="welcome-area" ref={this.fiscal} id="fiscal">
         <div className="header-text">
-          <div className="">
             <div style={{ padding: '0px' }} className="row" >
               <div style={{ paddingTop: '50px', backgroundColor: 'white', borderRadius: '0px' }} className="col-lg-6 col-md-6 col-sm-12">
                 <div className="row"><div className="col-lg-1 col-md-1"></div>
@@ -56,7 +55,7 @@ export class Fiscal extends Component {
             </div>
           </div>
         </div>
-      </div>
+      
     )
   }
 }
