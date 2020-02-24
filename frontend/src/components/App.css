@@ -367,7 +367,7 @@ a.main-button-slider {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(./assets/images/food.jpg);
+  background-image: url(../assets/images/food.jpg);
   opacity:1;
   background-attachment: fixed;
   background-position: center;
@@ -377,7 +377,7 @@ a.main-button-slider {
 }
 @media(max-width: 770px){
   .welcome-area{
-    height: 140vh;
+    height: 160vh;
     background-attachment: unset;
   }
 }
@@ -423,7 +423,7 @@ a.main-button-slider {
 @media(max-width: 600px){
   .welcome-area{
     height: 180vh;
-    background-image: url('./assets/images/food-mobile.jpg');
+    background-image: url('../assets/images/food-mobile.jpg');
   }
   .spacingFiscal{
     padding-top: 50px;
@@ -514,7 +514,7 @@ a.main-button-slider {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(./assets/images/home.png);
+  background-image: url(../assets/images/home.png);
   opacity:1;
   background-attachment: fixed;
   background-position: center;
@@ -528,10 +528,10 @@ a.main-button-slider {
     background-attachment: unset;
   }
   .vh120{
-    height:120vh !important;
+    height:140vh !important;
   }
   .vh140{
-    height:140vh !important;
+    height:160vh !important;
   }
 }
 .qweb-area .header-text {
