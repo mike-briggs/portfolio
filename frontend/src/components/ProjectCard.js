@@ -43,7 +43,7 @@ export class ProjectCard extends Component {
             opacity:this.state.hovering ? '5%' : '100%',transitionDuration: '0.3s',  float: 'left' 
         }
         const show = {
-            opacity:this.state.hovering ? '100%' : '0%', transitionDuration: '0.3s',transform:'translateX(30%) translateY(-100%)', marginTop:'-50px',paddingBottom:'20px', fontWeight:'700',fontSize:'24px',
+            opacity:this.state.hovering ? '100%' : '0%', transitionDuration: '0.3s', marginTop:'-50px',paddingBottom:'20px', fontWeight:'700',fontSize:'24px',
             color:'#000'
         }
         
