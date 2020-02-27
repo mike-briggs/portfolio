@@ -28,7 +28,7 @@ export class ProjectCard extends Component {
     render() {
         const style = {
             cursor: this.state.hovering ? 'pointer' : undefined,
-            margin:'10px',boxShadow: '0px 5px 20px rgba(0, 0, 0, 0.04)'
+            margin:'0px',boxShadow: '0px 5px 20px rgba(0, 0, 0, 0.04)'
             
         };
         const hide = {
@@ -43,8 +43,8 @@ export class ProjectCard extends Component {
             opacity:this.state.hovering ? '5%' : '100%',transitionDuration: '0.3s',  float: 'left' 
         }
         const show = {
-            opacity:this.state.hovering ? '100%' : '0%', transitionDuration: '0.3s', marginTop:'-50px',paddingBottom:'20px', fontWeight:'700',fontSize:'24px',
-            color:'#000'
+            opacity:this.state.hovering ? '100%' : '0%', transitionDuration: '0.3s', marginTop:'-50px',paddingBottom:'20px', fontWeight:'700',fontSize:'18px',
+            color:'#000',float:'right'
         }
         
 
@@ -61,7 +61,6 @@ export class ProjectCard extends Component {
           /*style={{margin:'10px',boxShadow: '0px 5px 20px rgba(0, 0, 0, 0.04)'}} */ 
         return (
               <div onClick={this.props.onClick}  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={style} className="col-lg-4 col-md-4 col-sm-12 col-12">
-                  
                 <h1 style={hide}>{this.props.title}</h1>
 
                 <div className="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -80,8 +79,9 @@ export class ProjectCard extends Component {
                     </div>
                 
                   </div>
+                  <h4 style={{float:'right'}} onClick={this.props.onClick} style={show}>View Project  ></h4>
                 </div>
-                <h4 onClick={this.props.onClick} style={show}>View Project  ></h4>
+                
 
                 
               </div>
