@@ -8,6 +8,7 @@ import sketch from '../assets/images/sketch.png'
 import react from '../assets/images/react.png'
 import node from '../assets/images/node.png'
 import { Button } from 'semantic-ui-react'
+import TechUsed from './techused.js'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -27,13 +28,9 @@ export class Formal extends Component {
                     <div className="col-lg-8 col-md-8 col-8">
                       <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Tech Used</h5>
                       <div style={{ float: 'left' }}>
-                        <ul style={{ display: 'flex' }} className="logoGroup">
-                          <li><a style={{ padding: '15px', paddingLeft: '0px', paddingTop: '10px' }} className="logoIconA" href="#search"><img className="techIcon" style={{ paddingTop: '0px', width: '40px', height: 'auto' }} src={react}></img></a></li>
-                          <li><a style={{ padding: '0px', paddingTop: '0px' }} className=""><hr style={{ width: '1px', marginTop: '1px', height: '100%', backgroundColor: 'lightGrey' }}></hr></a></li>
-                          <li><a style={{ padding: '15px', paddingTop: '10px' }} className="logoIconA"><img className="techIcon" style={{ paddingTop: '0px', width: '40px', height: 'auto' }} src={node}></img></a></li>
-                          <li><a style={{ padding: '0px', paddingTop: '0px' }} className=""><hr style={{ width: '1px', marginTop: '1px', height: '100%', backgroundColor: 'lightGrey' }}></hr></a></li>
-                          <li><a style={{ padding: '15px', paddingTop: '10px' }} className="logoIconA"><img className="techIcon" style={{ paddingTop: '0px', width: '40px', height: 'auto' }} src={sketch}></img></a></li>
-                        </ul>
+                        
+                        <TechUsed source1={react} source2={node} source3={sketch}/>
+
                       </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-4">

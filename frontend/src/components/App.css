@@ -40,7 +40,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 .header-area .main-nav {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 0px;
-  min-height: 60px;
+  min-height: 30px;
   width:100%;
   position: fixed !important;
   background: #fff;
@@ -169,12 +169,21 @@ body {
 
 a.main-button-slider {
   font-size: 13px;
+  transform: scale(1);
+  transition-duration: 0.5s;
   border-radius: 20px;
   padding: 12px 20px;
   background-color: rgb(206, 56, 56);
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
+}
+
+a.main-button-slider:hover {
+  
+  transform:scale(1.1);
+  transition-duration: 0.5s;
+  
 }
 
 .left-heading .section-title {
@@ -483,7 +492,18 @@ a.main-button-slider {
   margin-bottom: 40px;
   position: relative;
 }
-
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
 
 .techIcon:hover{
   transform: scale(1.3);

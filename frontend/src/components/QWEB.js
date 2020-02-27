@@ -9,6 +9,7 @@ import { Button } from 'semantic-ui-react'
 import ReactTypingEffect from 'react-typing-effect'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import TechUsed from './techused.js'
 
 export class QWEB extends Component {
   render() {

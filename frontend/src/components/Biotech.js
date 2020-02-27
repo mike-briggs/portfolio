@@ -10,7 +10,7 @@ import { Button } from 'semantic-ui-react'
 import biotech from '../assets/images/btc-side.png'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import TechUsed from './techused.js'
 
 
 export class Biotech extends Component {
@@ -30,15 +30,7 @@ export class Biotech extends Component {
                     <div className="col-lg-8 col-md-8 col-8">
                       <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Tech Used</h5>
 
-                      <ul style={{ display: 'flex' }} className="logoGroup">
-                        
-                        <li><a style={{ padding: '15px', paddingLeft: '0px', paddingTop: '10px', paddingRight: '15px' }} className="logoIconA" href="#search"><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={wordpress}></img></a></li>
-                        <li><a style={{ padding: '0px', paddingTop: '0px' }} className=""><hr style={{ width: '1px', marginTop: '1px', height: '100%', backgroundColor: 'lightGrey' }}></hr></a></li>
-
-                        <li><a style={{ padding: '15px', paddingTop: '10px', paddingRight: '15px' }} className="logoIconA"><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={php}></img></a></li>
-                        <li><a style={{ padding: '0px', paddingTop: '0px' }} className=""><hr style={{ width: '1px', marginTop: '1px', height: '100%', backgroundColor: 'lightGrey' }}></hr></a></li>
-                        <li><a style={{ padding: '15px', paddingTop: '10px', paddingRight: '15px' }} className="logoIconA"><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={js}></img></a></li>
-                      </ul>
+                      <TechUsed source1={wordpress} source2={php} source3={js}/>
                     </div>
                     <div className="col-lg-4 col-md-4 col-4">
 

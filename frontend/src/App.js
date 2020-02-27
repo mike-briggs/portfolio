@@ -14,7 +14,7 @@ import Header from './components/Header.js'
 import QWEB from './components/QWEB.js'
 import Safe from './components/Safe.js'
 import Formal from './components/Formal.js'
-
+import ProjectCard from './components/OtherProjects.js'
 
 
 
@@ -41,17 +41,21 @@ export class App extends Component {
     return (
       <div className="">
         <NavBar />
-        <Header/>
-        <Fiscal/>
+        <Header scroll={this.fiscal}/>
+        <Fiscal  ref={this.fiscal} id="fiscal"/>
         <Capstone/>
         <hr></hr>
         <Formal/>
-        <Course/>
-        <Biotech/>
         <QWEB/>
-        <Safe/>
-        <hr></hr>
         <Contact/>
+        <ProjectCard/>
+        <hr style={{padding:'20px'}}></hr>
+        <div className="container">
+        <div className="col-lg-12 col-md-12 col-12">
+                      <h4 style={{ fontFamily: 'Raleway', paddingBottom:'20px',fontSize: '16px',float:'right' }} className="">Copyright &copy;  Mike Briggs.</h4>
+                    </div>
+        </div>
+        
       </div>
     );
   }

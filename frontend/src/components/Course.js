@@ -12,7 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 export class Course extends Component {
   render() {
     return (
-      <div style={{ marginTop: '0px', backgroundColor: '#fbfbfb', backgroundImage: 'none' }} className="welcome-area" id="sci">
+      <div style={{ marginTop: '0px', backgroundColor: '#fff', backgroundImage: 'none' }} className="welcome-area" id="sci">
         <div className="header-text">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-1 col-md-1"></div>

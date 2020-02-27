@@ -30,9 +30,7 @@ export class Contact extends Component {
                         <li><a href="mailto:michael.briggs@queensu.ca" style={{ padding: '15px', paddingLeft: '15px', paddingTop: '10px' }} className=" techIcon" ><img className="techIcon" style={{ paddingTop: '15px', width: '30px', height: 'auto' }} src={mail}></img></a></li>
                       </ul>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-4">
-                      <h4 style={{ fontFamily: 'Raleway', padding: '5px', fontSize: '12px' }} className="">Copyright &copy;  Mike Briggs.</h4>
-                    </div>
+                    
                   </div>
                 </div>
               </div>

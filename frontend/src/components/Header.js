@@ -47,11 +47,11 @@ export class Header extends Component {
                     </div>
                     <div className="col-lg-4 col-md-4 col-4">
                       <a style={{ paddingBottom: '20px' }}>
-                        <Button onClick={() => { this.scroll(this.fiscal) }} className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#1a73e8', color: 'white' }}>Continue</Button>
+                        <Button onClick={() => { this.scroll("#fiscal") }} className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#1a73e8', color: 'white' }}>Continue</Button>
                       </a>
                     </div>
                     <div className=" col-lg-12 col-md-12">
-                      <a onClick={() => { this.scroll(this.fiscal) }} style={{ padding: '15px', paddingRight: '33px', paddingTop: '10px', float: 'right' }} className="logoIconA arrow" href="#search"><img className="techIcon" style={{ paddingTop: '0px', width: '60px', height: 'auto' }} src={arrow}></img></a>
+                      <a onClick={() => { this.scroll("#fiscal") }} style={{ padding: '15px', paddingRight: '33px', paddingTop: '10px', float: 'right' }} className="logoIconA arrow" href="#search"><img className="techIcon" style={{ paddingTop: '0px', width: '60px', height: 'auto' }} src={arrow}></img></a>
                     </div>
                   </div>
                 </div>
