@@ -38,9 +38,7 @@ export class OtherProjects extends Component {
                 {
                     color: "#23beed", type: "design", year: "2019", onClick: this.open2, className: "", title: "SAFE Dentistry", icon1: js, icon2: sketch, icon3: ps, desc: "Website designed for Safe Dentistry inc. a start-up speacializing in dental office safety inspections ensuring proper procedures."
                 },
-                {
-                    color: "#e0822b", type: "code", year: "2019", onClick: this.open3, className: "", title: "Landlord-Tenant App", icon1: js, icon2: php, icon3: ps, desc: "Lead agile development of C++ application to help tenants effectively communicate with their Landlords through messaging, maintenance requests, and rent payments."
-                },
+                
                 {
                     color: "#813cc7", type: "code", year: "2019", onClick: this.open, className: "", title: "Course Projects", icon1: java, icon2: python, icon3: "", desc: "Various algorithm implementations in Java with brute force and optimized approaches and comparisons. Simulated banking system in Python to practice common QA techniques."
                 },
@@ -55,6 +53,9 @@ export class OtherProjects extends Component {
                 },
                 {
                     color: "#813cc7", type: "code", year: "2019", onClick: this.openHaus, className: "", title: "HAUS Mobile App", icon1: java, icon2: ps, icon3: sketch, desc: "Tinder for Renting Houses! First year Capstone project developed in Android Studio. Oppourtunity to develop a business alongside the software to make it work."
+                },
+                {
+                    color: "#e0822b", type: "code", year: "2019", onClick: this.open3, className: "", title: "Landlord-Tenant App", icon1: js, icon2: php, icon3: ps, desc: "Lead agile development of C++ application to help tenants effectively communicate with their Landlords through messaging, maintenance requests, and rent payments."
                 }
             ],codeActive:true,designActive:false,
         }

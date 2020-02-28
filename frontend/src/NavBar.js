@@ -44,7 +44,6 @@ export class NavBar extends Component {
 
                                         <li><Icon link="https://github.com/mike-briggs" image={git}/></li>
                                         <li><Icon link="https://www.linkedin.com/in/mike-briggs-06990a123/" image={linkedin}/></li>
-                                        <li><a  style={{ cursor:'pointer',marginTop: '5px', padding: '15px', paddingRight: '0px'}} className="" ><img className="" style={{ width: 'auto', height: '35px' }} src={menu}></img></a></li>
 
                                     </ul>
                                     </div>
