@@ -14,11 +14,11 @@ import TechUsed from './techused.js'
 export class Safe extends Component {
   render() {
     return (
-      <div style={{ marginTop: '0px', backgroundImage: 'none' }} className="welcome-area vh130" id="safe">
+      <div style={{ marginTop: '0px', backgroundImage: 'none' }} className="welcome-area" id="safe">
         <div className="header-text">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-1 col-md-1"></div>
-              <div className="col-lg-5 col-md-5 col-sm-12 spacingSafe">
+              <div className="col-lg-5 col-md-5 col-sm-12">
                 <h1 style={{ paddingLeft: '15px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Safe Dentistry</h1>
                 <div className="col-lg-10 col-md-10 col-sm-12 col-12">
                   <h4 style={{ fontFamily: 'Raleway' }} className="">Website designed for Safe Dentistry inc. a start-up speacializing in dental office safety inspections. Helping ensure all dental offices follow proper processes and procedures. </h4>
@@ -35,7 +35,7 @@ export class Safe extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-6 spacingImage">
+              <div className="col-lg-6 col-md-6">
                 <img style={{ paddingLeft: '20px', paddingRight: '20px', width: '100%', height: 'auto' }} src={safe}></img>
               </div>
             </div>

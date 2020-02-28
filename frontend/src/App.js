@@ -49,7 +49,7 @@ export class App extends Component {
         <QWEB/>
         <Contact/>
         <ProjectCard/>
-        <hr style={{padding:'20px'}}></hr>
+        <hr style={{padding:'20px',paddingAbove:'40px'}}></hr>
         <div className="container">
         <div className="col-lg-12 col-md-12 col-12">
                       <h4 style={{ fontFamily: 'Raleway', paddingBottom:'20px',fontSize: '16px',float:'right' }} className="">Copyright &copy;  Mike Briggs.</h4>

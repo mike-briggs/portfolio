@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9eb0b52.chunk.css",
-    "main.js": "/static/js/main.4498bc11.chunk.js",
-    "main.js.map": "/static/js/main.4498bc11.chunk.js.map",
+    "main.css": "/static/css/main.071771e6.chunk.css",
+    "main.js": "/static/js/main.4faba913.chunk.js",
+    "main.js.map": "/static/js/main.4faba913.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cea588d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.cea588d5.js.map",
     "static/css/2.cbf4de94.chunk.css": "/static/css/2.cbf4de94.chunk.css",
-    "static/js/2.87cd9e2a.chunk.js": "/static/js/2.87cd9e2a.chunk.js",
-    "static/js/2.87cd9e2a.chunk.js.map": "/static/js/2.87cd9e2a.chunk.js.map",
+    "static/js/2.859e5c15.chunk.js": "/static/js/2.859e5c15.chunk.js",
+    "static/js/2.859e5c15.chunk.js.map": "/static/js/2.859e5c15.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.06afaeaad57266ce6fadcb3aa433d980.js": "/precache-manifest.06afaeaad57266ce6fadcb3aa433d980.js",
+    "precache-manifest.2bb6ef1684888e9fdbf0a67890757ca7.js": "/precache-manifest.2bb6ef1684888e9fdbf0a67890757ca7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.cbf4de94.chunk.css.map": "/static/css/2.cbf4de94.chunk.css.map",
-    "static/css/main.f9eb0b52.chunk.css.map": "/static/css/main.f9eb0b52.chunk.css.map",
-    "static/js/2.87cd9e2a.chunk.js.LICENSE.txt": "/static/js/2.87cd9e2a.chunk.js.LICENSE.txt",
+    "static/css/main.071771e6.chunk.css.map": "/static/css/main.071771e6.chunk.css.map",
+    "static/js/2.859e5c15.chunk.js.LICENSE.txt": "/static/js/2.859e5c15.chunk.js.LICENSE.txt",
     "static/media/Flowchart.png": "/static/media/Flowchart.0268aaae.png",
     "static/media/SFAST.png": "/static/media/SFAST.e4830bc5.png",
     "static/media/btc-side.png": "/static/media/btc-side.04be3fd5.png",
@@ -23,14 +23,15 @@
     "static/media/react-white.png": "/static/media/react-white.2367001e.png",
     "static/media/react.png": "/static/media/react.4a883f0a.png",
     "static/media/safe_dentistry.svg": "/static/media/safe_dentistry.c12813e1.svg",
+    "static/media/sayblue.jpg": "/static/media/sayblue.1dfcc851.jpg",
     "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
     "static/media/space_cutout.png": "/static/media/space_cutout.6cdbfad0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cea588d5.js",
     "static/css/2.cbf4de94.chunk.css",
-    "static/js/2.87cd9e2a.chunk.js",
-    "static/css/main.f9eb0b52.chunk.css",
-    "static/js/main.4498bc11.chunk.js"
+    "static/js/2.859e5c15.chunk.js",
+    "static/css/main.071771e6.chunk.css",
+    "static/js/main.4faba913.chunk.js"
   ]
 }

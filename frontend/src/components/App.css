@@ -384,6 +384,13 @@ a.main-button-slider:hover {
   background-size: cover;
   height:100vh;
 }
+.contentSection{
+  overflow:hidden;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
 @media(max-width: 770px){
   .welcome-area{
     height: 160vh;

@@ -17,7 +17,7 @@ import TechUsed from './techused.js'
 export class SFAST extends Component {
   render() {
     return (
-      <div style={{ marginTop: '0px', backgroundImage: 'none' }} className="container" id="">
+      <div style={{ marginTop: '0px', backgroundImage: 'none' }} className="" id="">
         <div className="header-text">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-5 col-md-5 col-sm-12 col-12 spacingImage">
@@ -36,7 +36,7 @@ export class SFAST extends Component {
                     <div className="col-lg-4 col-md-4 col-4">
 
                       <a style={{ paddingBottom: '20px' }}>
-                        <Button href="https://biotechleadership.com" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#FFB615', color: 'black' }}>Enbridge</Button>
+                        <Button href="https://enbridge.com" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#FFB615', color: 'black' }}>Enbridge</Button>
                       </a>
                     </div>
                   </div>

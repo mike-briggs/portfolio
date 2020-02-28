@@ -16,7 +16,7 @@ export class Course extends Component {
         <div className="header-text">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-1 col-md-1"></div>
-              <div className="col-lg-4 col-md-12 col-sm-12 col-12 spacingCourse">
+              <div className="col-lg-5 col-md-12 col-sm-12 col-12 spacingCourse">
                 <h1 style={{ paddingLeft: '15px', fontSize: '24px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Algorithm Implementations</h1>
                 <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                   <h4 style={{ fontFamily: 'Raleway' }} className="">Various algorithm program implementations in Java to solve real world problems at a small scale.
@@ -45,8 +45,7 @@ export class Course extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-2 col-md-2"><hr className="hideDesktop"></hr></div>
-              <div className="col-lg-4 col-md-12 col-sm-12 spacingCourse">
+              <div className="col-lg-5 col-md-12 col-sm-12 spacingCourse">
                 <h1 style={{ paddingLeft: '15px', fontSize: '24px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Quality Assurance Project</h1>
                 <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                   <h4 style={{ fontFamily: 'Raleway' }} className=""> Simple banking system in python to practice Quality Assurance methods in a simulated environment.
@@ -75,6 +74,7 @@ export class Course extends Component {
                 </div>
               </div>
               <div className="col-lg-1 col-md-1"></div>
+
             </div>
           </div>
         </div>
