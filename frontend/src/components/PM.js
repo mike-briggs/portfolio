@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 import './App.css'
 import '../assets/css/bootstrap.min.css'
 import '../assets/css/font-awesome.css'
-import java from '../assets/images/java.png'
+import js from '../assets/images/js.png'
 import ps from '../assets/images/ps.png'
-import android from '../assets/images/android.png'
+import sketch from '../assets/images/sketch.png'
 import { Button } from 'semantic-ui-react'
 import pm from '../assets/images/PM_Dashboard.png'
 import "slick-carousel/slick/slick.css";
@@ -26,11 +26,11 @@ export class PM extends Component {
                     <div className="col-lg-8 col-md-8 col-8">
                       <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Summer 2018</h5>
                       
-                      <TechUsed source1={java} source2={ps} source3={android}/>
+                      <TechUsed source1={js} source2={ps} source3={sketch}/>
 
                     </div>
                     <div className="col-lg-4 col-md-4 col-4" style={{ paddingBottom: '20px' }}>
-                      <Button href="http://safedentistryinc.com" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#FFB615', color: 'white' }}>Site</Button>
+                      <Button href="http://enbridge.com" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#FFB615', color: 'white' }}>Enbridge</Button>
                     </div>
                   </div>
                 </div>

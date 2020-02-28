@@ -39,14 +39,14 @@ export class OtherProjects extends Component {
                     color: "#05c3de", type: "Design", year: "2019", onClick: this.open3, className: "", title: "Biotech Leadership", icon1: js, icon2: php, icon3: ps, desc: "Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services."
                 },
                 {
-                    color: "#23beed", type: "Design", year: "2019", onClick: this.open2, className: "", title: "SAFE Dentistry", icon1: js, icon2: sketch, icon3: ps, desc: "Website designed for Safe Dentistry inc. a start-up speacializing in dental office safety inspections ensuring proper procedures."
+                    color: "#FFB615", type: "Code", year: "2019", onClick: this.open4, className: "", title: "Enbridge Station FAST", icon1: js, icon2: ps, icon3: sketch, desc: "Internal Enbridge Application - Station Field Assesment Survey Tool. An application to collect information about field asset integrity and report findings to management."
                 },
-
                 {
                     color: "#813cc7", type: "Code", year: "2019", onClick: this.open, className: "", title: "Course Projects", icon1: java, icon2: python, icon3: "", desc: "Various algorithm implementations in Java with brute force and optimized approaches and comparisons. Simulated banking system in Python to practice common QA techniques."
                 },
+                
                 {
-                    color: "#FFB615", type: "Code", year: "2019", onClick: this.open4, className: "", title: "Enbridge Station FAST", icon1: js, icon2: ps, icon3: sketch, desc: "Internal Enbridge Application - Station Field Assesment Survey Tool. An application to collect information about field asset integrity and report findings to management."
+                    color: "#23beed", type: "Design", year: "2019", onClick: this.open2, className: "", title: "SAFE Dentistry", icon1: js, icon2: sketch, icon3: ps, desc: "Website designed for Safe Dentistry inc. a start-up speacializing in dental office safety inspections ensuring proper procedures."
                 },
                 {
                     color: "#FFB615", type: "Code", year: "2019", onClick: this.openPM, className: "", title: "Enbridge PM Tool", icon1: js, icon2: ps, icon3: sketch, desc: "Internal Enbridge Application - Engineering Dept. Project Management Tool to allow PMs to submit status updates and display them on a compiled dashboard."
@@ -55,10 +55,10 @@ export class OtherProjects extends Component {
                     color: "#e0822b", type: "Code", year: "2019", onClick: this.openReno, className: "", title: "Reno Mobile App", icon1: react, icon2: ps, icon3: sketch, desc: "React Native application to help streamline finding contractors for renovations and emergency jobs. Tracks materials purchased, hours, etc. helping homeowners."
                 },
                 {
-                    color: "#813cc7", type: "code", year: "2019", onClick: this.openHaus, className: "", title: "HAUS Mobile App", icon1: java, icon2: ps, icon3: sketch, desc: "Tinder for Renting Houses! First year Capstone project developed in Android Studio. Oppourtunity to develop a business alongside the software to make it work."
+                    color: "#e0822b", type: "code", year: "2019", onClick: this.openSoon, className: "", title: "Landlord-Tenant App", icon1: cpp, icon2: qt, icon3: ps, desc: "Lead agile development of C++ application to help tenants effectively communicate with their Landlords through messaging, maintenance requests, and rent payments."
                 },
                 {
-                    color: "#e0822b", type: "code", year: "2019", onClick: this.openSoon, className: "", title: "Landlord-Tenant App", icon1: cpp, icon2: qt, icon3: ps, desc: "Lead agile development of C++ application to help tenants effectively communicate with their Landlords through messaging, maintenance requests, and rent payments."
+                    color: "#813cc7", type: "code", year: "2019", onClick: this.openHaus, className: "", title: "HAUS Mobile App", icon1: java, icon2: ps, icon3: sketch, desc: "Tinder for Renting Houses! First year Capstone project developed in Android Studio. Oppourtunity to develop a business alongside the software to make it work."
                 }
             ], codeActive: false, designActive: false,
         }
@@ -205,7 +205,7 @@ export class OtherProjects extends Component {
                     <div className="col-lg-2 col-md-2"></div>
                     <div className="col-lg-7 col-md-9 col-sm-12 col-12 ">
                         <h1 style={{ fontFamily: 'Raleway', fontWeight: 600 }}>{this.state.category} Projects</h1>
-                        <p style={{ paddingBottom: '30px', fontFamily: 'Raleway', letterSpacing: '0.1pt' }} className="">Various projects gathered through Independent Consulting, Summer Work, and Hobby Programming. 2016-2020</p>
+                        <p style={{ paddingBottom: '30px', fontFamily: 'Raleway', letterSpacing: '0.1pt' }} className="">Various projects gathered through independent consulting, summer work, and hobby programming. 2016-2020</p>
 
                     </div>
                     <div style={{ flexDirection: 'column' }} className="col-lg-3 col-md-3">
@@ -219,17 +219,17 @@ export class OtherProjects extends Component {
                             ><Icon name='th'/>
   
                         </Button>*/}
-                        <Button style={{ float: 'left', transitionDuration: '0.5s', color: this.state.showAll ? "#fff" : undefined, backgroundColor: this.state.showAll ? "#000" : undefined }}
+                        <Button style={{ borderRadius:'100%',float: 'left', transitionDuration: '0.5s', color: this.state.showAll ? "#fff" : "#000", backgroundColor: this.state.showAll ? "#000" : "transparent",borderColor:'#fff',border:'solid #fff',borderWeight:'2pt' }}
                             onClick={() => this.showAll()} icon
                         ><Icon name='th' />
 
                         </Button>
-                        <Button style={{ float: 'left', transitionDuration: '0.5s', color: this.state.codeActive ? "#fff" : undefined, backgroundColor: this.state.codeActive ? "#000" : undefined }}
+                        <Button style={{ borderRadius:'100%',float: 'left', transitionDuration: '0.5s', color: this.state.codeActive ?"fff" : "#000", backgroundColor: this.state.codeActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt'}}
                             onClick={() => this.changeCategory("Code")} icon
                         ><Icon name='code' />
 
                         </Button>
-                        <Button style={{ float: 'left', transitionDuration: '0.5s', color: this.state.designActive ? "#fff" : undefined, backgroundColor: this.state.designActive ? "#000" : undefined }}
+                        <Button style={{ borderRadius:'100%',float: 'left', transitionDuration: '0.5s', color: this.state.designActive ? "#fff" : "#000", backgroundColor: this.state.designActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt' }}
                             onClick={() => this.changeCategory("Design")} icon
                         ><Icon name='paint brush' />
 

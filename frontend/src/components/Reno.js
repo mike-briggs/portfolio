@@ -30,7 +30,6 @@ export class Reno extends Component {
 
                     </div>
                     <div className="col-lg-4 col-md-4 col-4" style={{ paddingBottom: '20px' }}>
-                      <Button href="http://safedentistryinc.com" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#e0822b', color: 'white' }}>Site</Button>
                     </div>
                   </div>
                 </div>
