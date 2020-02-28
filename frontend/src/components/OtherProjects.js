@@ -224,7 +224,7 @@ export class OtherProjects extends Component {
                         ><Icon name='th' />
 
                         </Button>
-                        <Button style={{ borderRadius:'100%',float: 'left', transitionDuration: '0.5s', color: this.state.codeActive ?"fff" : "#000", backgroundColor: this.state.codeActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt'}}
+                        <Button style={{ borderRadius:'100%',float: 'left', transitionDuration: '0.5s', color: this.state.codeActive ?"#fff" : "#000", backgroundColor: this.state.codeActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt'}}
                             onClick={() => this.changeCategory("Code")} icon
                         ><Icon name='code' />
 
