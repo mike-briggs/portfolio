@@ -14,7 +14,7 @@ import TechUsed from './techused.js'
 export class HAUS extends Component {
   render() {
     return (
-      <div style={{ marginTop: '0px', backgroundImage: 'none' }} className="" id="safe">
+      <div style={{ marginTop: '0px', backgroundImage: 'none' }} className="" id="">
         <div className="header-text">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-1 col-md-1"></div>
