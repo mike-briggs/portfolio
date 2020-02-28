@@ -56,12 +56,12 @@ export class SFAST extends Component {
                 
                 </div>
               </div>
-              <div className="col-lg-2 col-md-2"></div>
-              <div className="col-lg-8 col-md-8 col-sm-12 col-12">
-              <img style={{ paddingLeft: '0px', paddingRight: '0px', verticalAlign: 'middle', width: '100%', height: 'auto' }} src={flowchart}></img>
+              <div className="col-lg-3 col-md-3"></div>
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+              <img style={{ paddingLeft: '20px', paddingRight: '20px', verticalAlign: 'middle', width: '100%', height: 'auto' }} src={flowchart}></img>
 
               </div>
-              <div className="col-lg-2 col-md-2"></div>
+              <div className="col-lg-3 col-md-3"></div>
             </div>
           </div>
         </div>
