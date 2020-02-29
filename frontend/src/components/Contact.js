@@ -18,9 +18,9 @@ export class Contact extends Component {
               <div className="col-lg-2 col-md-2">
               </div>
               <div className="col-lg-8 col-md-8 col-sm-12 spacing2">
-                <h1 style={{ paddingLeft: '15px', fontFamily: 'Raleway', fontWeight: 600 }}>Contact Me</h1>
+                <h1 style={{ paddingLeft: '15px', fontFamily: 'Cabin', fontWeight: 600 }}>Contact Me</h1>
                 <div className="col-lg-10 col-md-10 col-sm-12 col-12">
-                  <h4 style={{ fontFamily: 'Raleway' }} className="">Feel free to reach out to me below, I would love to have a chat.</h4>
+                  <h4 style={{ fontFamily: 'Cabin' }} className="">Feel free to reach out to me below, I would love to have a chat.</h4>
                   <hr></hr>
                   <div className="row">
                     <div className="col-lg-8 col-md-8 col-8">

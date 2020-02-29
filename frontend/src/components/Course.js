@@ -17,11 +17,11 @@ export class Course extends Component {
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-2 col-md-2"></div>
               <div className="col-lg-4 col-md-12 col-sm-12 col-12 spacingCourse">
-                <h1 style={{ paddingLeft: '15px', fontSize: '20pt',paddingBottom:'20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Algorithm Implementations</h1>
+                <h1 style={{ paddingLeft: '15px', fontSize: '20pt',paddingBottom:'20px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>Algorithm Implementations</h1>
                 <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                <h4 style={{ paddingBottom:'30px',fontFamily: 'Raleway', lineHeight:'20pt', fontSize:'12pt',fontWeight:'500', letterSpacing:'0.1pt' }} className="">Various algorithm program implementations in Java to solve real world problems at a small scale.
+                <h4 style={{ paddingBottom:'30px',fontFamily: 'Cabin', lineHeight:'20pt', fontSize:'12pt',fontWeight:'500', letterSpacing:'0.1pt' }} className="">Various algorithm program implementations in Java to solve real world problems at a small scale.
                     <hr></hr>
-                    <ul style={{ paddingBottom:'0px',fontFamily: 'Raleway', lineHeight:'15pt', fontSize:'10pt',fontWeight:'500', letterSpacing:'0.1pt' }}>
+                    <ul style={{ paddingBottom:'0px',fontFamily: 'Cabin', lineHeight:'15pt', fontSize:'10pt',fontWeight:'500', letterSpacing:'0.1pt' }}>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a > Travel Planning (Djikstra)</li>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> Subset with Target Sum</li>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> Huffman Coding</li>
@@ -39,7 +39,7 @@ export class Course extends Component {
                     </div>
                     <div className="col-lg-4 col-md-4 col-4">
                       <a style={{ marginBottom: '20px' }}>
-                        <Button href="https://github.com/mike-briggs/Algorithms" className="main-button-slider" style={{ marginBottom: '10px', float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#3c1069', color: 'white' }}>Github</Button>
+                        <Button href="https://github.com/mike-briggs/Algorithms" className="main-button-slider" style={{ marginBottom: '10px', float: 'right', fontFamily: 'Cabin', fontWeight: 600, backgroundColor: '#3c1069', color: 'white' }}>Github</Button>
                       </a>
                     </div>
                   </div>
@@ -47,11 +47,11 @@ export class Course extends Component {
               </div>
               <div className="col-lg-1 col-md-1"></div>
               <div className="col-lg-4 col-md-12 col-sm-12 spacingCourse">
-              <h1 style={{ paddingLeft: '15px', fontSize: '20pt',paddingBottom:'20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Quality Assurance Project</h1>
+              <h1 style={{ paddingLeft: '15px', fontSize: '20pt',paddingBottom:'20px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>Quality Assurance Project</h1>
                 <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                <h4 style={{ paddingBottom:'0px',fontFamily: 'Raleway', lineHeight:'20pt', fontSize:'12pt',fontWeight:'500', letterSpacing:'0.1pt' }} className=""> Simple banking system in python to practice Quality Assurance methods in a simulated environment.
+                <h4 style={{ paddingBottom:'0px',fontFamily: 'Cabin', lineHeight:'20pt', fontSize:'12pt',fontWeight:'500', letterSpacing:'0.1pt' }} className=""> Simple banking system in python to practice Quality Assurance methods in a simulated environment.
                     <hr></hr>
-                    <ul style={{ paddingBottom:'30px',fontFamily: 'Raleway', lineHeight:'15pt', fontSize:'10pt',fontWeight:'500', letterSpacing:'0.1pt' }}>
+                    <ul style={{ paddingBottom:'30px',fontFamily: 'Cabin', lineHeight:'15pt', fontSize:'10pt',fontWeight:'500', letterSpacing:'0.1pt' }}>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> Common Testing Techniques with pytest</li>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> Software Dev Lifecycle Procedures</li>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> Agile Development </li>
@@ -68,7 +68,7 @@ export class Course extends Component {
                     </div>
                     <div className="col-lg-4 col-md-4 col-4">
                       <a style={{ paddingBottom: '20px' }}>
-                        <Button href="https://github.com/mike-briggs/QualityAssurance" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#3c1069', color: 'white' }}>Github</Button>
+                        <Button href="https://github.com/mike-briggs/QualityAssurance" className="main-button-slider" style={{ float: 'right', fontFamily: 'Cabin', fontWeight: 600, backgroundColor: '#3c1069', color: 'white' }}>Github</Button>
                       </a>
                     </div>
                   </div>

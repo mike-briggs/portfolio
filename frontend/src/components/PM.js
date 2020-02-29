@@ -19,18 +19,18 @@ export class PM extends Component {
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-1 col-md-1"></div>
               <div className="col-lg-6 col-md-6 col-sm-12">
-                <h1 style={{ paddingTop:'110px',paddingBottom:'15px',paddingLeft: '15px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Enbridge Project Dashboard</h1>
+                <h1 style={{ paddingTop:'110px',paddingBottom:'15px',paddingLeft: '15px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>Enbridge Project Dashboard</h1>
                 <div className="col-lg-10 col-md-10 col-sm-12 col-12">
-                <h4 style={{ paddingBottom:'30px',fontFamily: 'Raleway', lineHeight:'20pt', fontSize:'14px',fontWeight:'400', letterSpacing:'0.1pt' }} className="">Internal Enbridge Application - Engineering Dept. Project Management Tool to allow PMs to submit status updates and display them on a compiled dashboard.</h4>
+                <h4 style={{ paddingBottom:'30px',fontFamily: 'Cabin', lineHeight:'20pt', fontSize:'14px',fontWeight:'400', letterSpacing:'0.1pt' }} className="">Internal Enbridge Application - Engineering Dept. Project Management Tool to allow PMs to submit status updates and display them on a compiled dashboard.</h4>
                   <div className="row">
                     <div className="col-lg-8 col-md-8 col-8">
-                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Aug. 2018</h5>
+                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>Aug. 2018</h5>
                       
                       <TechUsed source1={js} source2={ps} source3={sketch}/>
 
                     </div>
                     <div className="col-lg-4 col-md-4 col-4" style={{ paddingBottom: '20px' }}>
-                      <Button href="http://enbridge.com" target="_blank" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#FFB615', color: 'white' }}>Enbridge</Button>
+                      <Button href="http://enbridge.com" target="_blank" className="main-button-slider" style={{ float: 'right', fontFamily: 'Cabin', fontWeight: 600, backgroundColor: '#FFB615', color: 'white' }}>Enbridge</Button>
                     </div>
                   </div>
                 </div>

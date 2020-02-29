@@ -33,17 +33,17 @@ export class ProjectCard extends Component {
     };
     const hide = {
       color: this.state.hovering ? 'white' : 'black', transitionDuration: '0.2s',
-      paddingTop: '30px', paddingLeft: '15px', fontColor: { color }, fontSize: '18pt', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left'
+      paddingTop: '30px', paddingLeft: '15px', fontColor: { color }, fontSize: '18pt', fontFamily: 'Cabin', fontWeight: 700, textAlign: 'left'
 
     }
     const hide2 = {
-      color: this.state.hovering ? 'white' : 'black',transitionDuration: '0.6s',letterSpacing:'0.3pt',lineHeight:'20pt', paddingTop: '5px', fontFamily: 'Raleway', fontSize: '12pt', textAlign: 'left',fontWeight:this.state.hovering ? '500' : '500'
+      color: this.state.hovering ? 'white' : 'black',transitionDuration: '0.6s',letterSpacing:'0.1pt',lineHeight:'20pt', paddingTop: '5px', fontFamily: 'Cabin', fontSize: '12pt', textAlign: 'left',fontWeight:this.state.hovering ? '400' : '400'
     }
     const hide3 = {
       opacity: this.state.hovering ? '3%':'90%' , transitionDuration: '0.7s', float: 'left',zIndex:-99
     }
     const show = {
-      opacity: this.state.hovering ? '100%' : '0%', transitionDuration: '0.4s', marginTop: '-50px', paddingBottom: '20px', fontFamily: 'Raleway', zIndex:99,fontWeight: '700', fontSize: '16pt',color:'#fff',
+      opacity: this.state.hovering ? '100%' : '0%', transitionDuration: '0.4s', marginTop: '-50px', paddingBottom: '20px', fontFamily: 'Cabin', zIndex:99,fontWeight: '700', fontSize: '16pt',color:'#fff',
       float: 'right'
     }
 

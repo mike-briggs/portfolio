@@ -21,12 +21,12 @@ export class Formal extends Component {
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-1 col-md-1"></div>
               <div className="col-lg-6 col-md-12 col-sm-12 col-12 spacingSci">
-                <h1 style={{ paddingLeft: '15px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Queen's Engineering Formal</h1>
+                <h1 style={{ paddingLeft: '15px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>Queen's Engineering Formal</h1>
                 <div className="col-lg-10 col-md-10 col-sm-12 col-12">
-                  <h4 style={{ fontFamily: 'Raleway' }} className="">Sci Formal is a celebration for all of Queen's Engineering held annually. This mern web application keeps track of 400+ simultaneous volunteers putting together the space themed formal. Features User, Manager, &amp; Admin sign-in with different access levels. Managers can start the hour logging process while admins are able to add or remove hours from specific students. Users can sign in and view how many hours they have left.</h4>
+                  <h4 style={{ fontFamily: 'Cabin' }} className="">Sci Formal is a celebration for all of Queen's Engineering held annually. This mern web application keeps track of 400+ simultaneous volunteers putting together the space themed formal. Features User, Manager, &amp; Admin sign-in with different access levels. Managers can start the hour logging process while admins are able to add or remove hours from specific students. Users can sign in and view how many hours they have left.</h4>
                   <div className="row">
                     <div className="col-lg-8 col-md-8 col-8">
-                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Tech Used</h5>
+                      <h5 style={{ paddingBottom: '5px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>July 2019</h5>
                       <div style={{ float: 'left' }}>
                         
                         <TechUsed source1={react} source2={node} source3={sketch}/>
@@ -35,10 +35,10 @@ export class Formal extends Component {
                     </div>
                     <div className="col-lg-4 col-md-4 col-4">
                       <a style={{ marginBottom: '20px' }}>
-                        <Button href="https://github.com/mike-briggs/Space-HourLogger" target="_blank" className="main-button-slider" style={{ marginBottom: '10px', float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#f16b2b', color: 'white' }}>Repo </Button>
+                        <Button href="https://github.com/mike-briggs/Space-HourLogger" target="_blank" className="main-button-slider" style={{ marginBottom: '10px', float: 'right', fontFamily: 'Cabin', fontWeight: 600, backgroundColor: '#f16b2b', color: 'white' }}>Repo </Button>
                       </a>
                       <a style={{ paddingBottom: '20px' }}>
-                        <Button href="https://app.scienceformal.ca" target="_blank" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#2f1667', color: 'white' }}>Site</Button>
+                        <Button href="https://app.scienceformal.ca" target="_blank" className="main-button-slider" style={{ float: 'right', fontFamily: 'Cabin', fontWeight: 600, backgroundColor: '#2f1667', color: 'white' }}>Site</Button>
                       </a>
                     </div>
                   </div>

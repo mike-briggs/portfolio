@@ -23,19 +23,19 @@ export class Biotech extends Component {
                 <img style={{ paddingLeft: '30px', paddingRight: '30px', verticalAlign: 'middle', width: '100%', height: 'auto' }} src={biotech}></img>
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 spacing2">
-                <h1 style={{ paddingLeft: '15px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Biotech Leadership Consulting</h1>
+                <h1 style={{ paddingLeft: '15px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>Biotech Leadership Consulting</h1>
                 <div className="col-lg-10 col-md-10 col-sm-12 col-12">
-                  <h4 style={{ fontFamily: 'Raleway' }} className="">Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services. Their main focus is on helping get pharmaceutical products through all levels of screening and to market. Features PGP, SSL and SFTP for patent upload.</h4>
+                  <h4 style={{ fontFamily: 'Cabin' }} className="">Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services. Their main focus is on helping get pharmaceutical products through all levels of screening and to market. Features PGP, SSL and SFTP for patent upload.</h4>
                   <div className="row">
                     <div className="col-lg-8 col-md-8 col-8">
-                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>July 2019</h5>
+                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>July 2019</h5>
 
                       <TechUsed source1={wordpress} source2={php} source3={js}/>
                     </div>
                     <div className="col-lg-4 col-md-4 col-4">
 
                       <a style={{ paddingBottom: '20px' }}>
-                        <Button href="https://biotechleadership.com" target="_blank" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#62cef3', color: 'white' }}>Site</Button>
+                        <Button href="https://biotechleadership.com" target="_blank" className="main-button-slider" style={{ float: 'right', fontFamily: 'Cabin', fontWeight: 600, backgroundColor: '#62cef3', color: 'white' }}>Site</Button>
                       </a>
                     </div>
                   </div>

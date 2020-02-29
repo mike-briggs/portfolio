@@ -23,23 +23,23 @@ export class Fiscal extends Component {
               <div style={{ paddingTop: '50px', backgroundColor: 'white', borderRadius: '0px' }} className="col-lg-6 col-md-6 col-sm-12">
                 <div className="row"><div className="col-lg-1 col-md-1"></div>
                   <div className="col-lg-11 col-md-11">
-                    <h1 style={{ paddingLeft: '15px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Fiscal Fresh                      <h4 style={{ fontFamily: 'Raleway', fontWeight: 600, marginBottom: '0px' }} className=""><img className="techIcon" style={{ paddingTop: '10px', width: '16px', height: 'auto' }} src={star}></img>&nbsp;&nbsp;QHacks 2020 Top 3 Best Hack</h4></h1>
+                    <h1 style={{ paddingLeft: '15px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>Fiscal Fresh                      <h4 style={{ fontFamily: 'Cabin', fontWeight: 600, marginBottom: '0px' }} className=""><img className="techIcon" style={{ paddingTop: '10px', width: '16px', height: 'auto' }} src={star}></img>&nbsp;&nbsp;QHacks 2020 Top 3 Best Hack</h4></h1>
                     <hr></hr>
                     <div className="col-lg-10 col-md-10 col-sm-12 col-12">
-                      <p style={{ fontFamily: 'Raleway' }} className="">Browse and search millions of healthy recipes, create a meal plan then continue to checkout. Required groceries will be auto added to Instacart checkout. This web application aims to cut out the middle man of meal delivery services and brings the savings back to the consumer.</p>
+                      <p style={{ fontFamily: 'Cabin' }} className="">Browse and search millions of healthy recipes, create a meal plan then continue to checkout. Required groceries will be auto added to Instacart checkout. This web application aims to cut out the middle man of meal delivery services and brings the savings back to the consumer.</p>
                       <div className="row">
                         <div className="col-lg-8 col-md-8 col-8">
-                          <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Tech Used</h5>
+                          <h5 style={{ paddingBottom: '5px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>Feb 2020</h5>
                           
                           <TechUsed source1={react} source2={python} source3={sketch}/>
 
                         </div>
                         <div className="col-lg-4 col-md-4 col-4">
                           <a style={{ marginBottom: '20px' }}>
-                            <Button href="https://github.com/mike-briggs/FiscalFresh" className="main-button-slider" style={{ marginBottom: '10px', float: 'right', fontFamily: 'Raleway', fontWeight: 600, color: 'white', backgroundColor: 'rgb(40, 40, 40)' }}>Repo</Button>
+                            <Button href="https://github.com/mike-briggs/FiscalFresh" className="main-button-slider" style={{ marginBottom: '10px', float: 'right', fontFamily: 'Cabin', fontWeight: 600, color: 'white', backgroundColor: 'rgb(40, 40, 40)' }}>Repo</Button>
                           </a>
                           <a style={{ paddingBottom: '20px' }}>
-                            <Button href="http://www.fiscalfresh.ca" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: 'rgb(91, 206, 56)', color: 'white' }}>Site</Button>
+                            <Button href="http://www.fiscalfresh.ca" className="main-button-slider" style={{ float: 'right', fontFamily: 'Cabin', fontWeight: 600, backgroundColor: 'rgb(91, 206, 56)', color: 'white' }}>Site</Button>
                           </a>
                         </div>
                       </div>

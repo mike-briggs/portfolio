@@ -9,6 +9,7 @@ import cpp from '../assets/images/cpp.png'
 import qt from '../assets/images/qt.png'
 import java from '../assets/images/java.png'
 import ps from '../assets/images/ps.png'
+import enbridge from '../assets/images/enbridge.jpg'
 import ai from '../assets/images/illustrator.png'
 import wordpress from '../assets/images/wordpress.png'
 import android from '../assets/images/android.png'
@@ -23,6 +24,7 @@ import Biotech from './Biotech.js'
 import Safe from './Safe.js'
 import SFAST from './SFAST.js'
 import HAUS from './HAUS.js'
+import Popup from './Popup.js'
 import Reno from './Reno.js'
 import PM from './PM.js'
 import IconC from './Icon.js'
@@ -42,10 +44,10 @@ export class OtherProjects extends Component {
                     color: "#59a1ff", iconName:"pencil",type: "Design", year: "2019", onClick: this.open3, className: "", title: "Biotech Leadership", icon1: wordpress, icon2: js, icon3: php, desc: "Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services."
                 },
                 {
-                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.open4, className: "", title: "Enbridge Station FAST", icon1: js, icon2: ps, icon3: sketch, desc: "[Internal] - Station Field Assesment Survey Tool. Application to collect information about field asset integrity and report findings to management."
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.open4, className: "", title: "Enbridge Station FAST",image:enbridge, icon1: js, icon2: ps, icon3: sketch, desc: "[Internal] - Station Field Assesment Survey Tool. Application to collect information about field asset integrity and report findings to management."
                 },
                 {
-                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.open, className: "", title: "Course Projects", icon1: java, icon2: python, icon3: "", desc: "Various algorithm implementations in Java with brute force and optimized approaches and comparisons. Simulated banking system in Python to practice common QA techniques."
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.open("Test Title"), className: "", title: "Course Projects", icon1: java, icon2: python, icon3: "", desc: "Various algorithm implementations in Java with brute force and optimized approaches and comparisons. Simulated banking system in Python to practice common QA techniques."
                 },
                 {
                     color: "#59a1ff", iconName:"pencil",type: "Design", year: "2020", onClick: ()=>window.open("https://www.figma.com/proto/cvDTmlYK6qZVFkQawCAyOn/SparQ-Mockup?node-id=20%3A8&viewport=118%2C599%2C0.19171765446662903&scaling=scale-down-width"), className: "", title: "SparQ Studios", icon1: figma, icon2: ps, icon3: sketch, desc: "SparQ Studios is a makerspace and design studio that provides a wide range of tools, machinery, knowledge, and expertise so that you can bring your idea into a physical form. "
@@ -72,15 +74,15 @@ export class OtherProjects extends Component {
                     color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.openSoon, className: "", title: "Landlord-Tenant App", icon1: cpp, icon2: qt, icon3: ps, desc: "Lead agile development of C++ application to help tenants effectively communicate with their Landlords through messaging, maintenance requests, and rent payments."
                 },
                 {
-                    color: "#59a1ff", iconName:"paint brush",type: "Frontend", year: "2019", onClick: this.openHaus, className: "", title: "HAUS Mobile App", icon1: java, icon2: ps, icon3: android, desc: "Tinder for Renting Houses! First year Capstone project developed in Android Studio. Oppourtunity to develop a business alongside the software to make it work."
+                    color: "#59a1ff", iconName:"android",type: "Frontend", year: "2019", onClick: this.openHaus, className: "", title: "HAUS Mobile App", icon1: java, icon2: ps, icon3: android, desc: "Tinder for Renting Houses! First year Capstone project developed in Android Studio. Oppourtunity to develop a business alongside the software to make it work."
                 }
-            ], codeActive: false, designActive: false,frontendActive:false
+            ], codeActive: false, designActive: false,frontendActive:false,currentTitle:"Not Set"
         }
 
     }
 
     close = () => this.setState({ open: false })
-    open = () => this.setState({ open: true })
+    open = (test) => this.setState({ open: true,currentTitle:test })
     close2 = () => this.setState({ open2: false })
     open2 = () => this.setState({ open2: true })
     close3 = () => this.setState({ open3: false })
@@ -174,7 +176,7 @@ export class OtherProjects extends Component {
                             ><Icon name='x' />
 
                             </Button>
-                                <HAUS /></Modal.Content>
+                                <Popup title={this.state.currentTitle} /></Modal.Content>
                         </Modal>
                         <Modal open={openPM} onClose={this.closePM} style={{ width: '100%', padding: '30px' }} >
                             <Modal.Content scrolling style={{ maxHeight: '100%' }}><Button style={{ float: 'right' }}
@@ -225,28 +227,28 @@ export class OtherProjects extends Component {
                 <div className="row">
                     <div className="col-lg-2"></div>
                     <div className="col-lg-7 col-md-8 col-sm-12 col-12 ">
-                        <h1 style={{ fontFamily: 'Raleway', fontWeight: 600 }}>{this.state.category} Projects</h1>
-                        <p style={{ paddingBottom: '30px', fontFamily: 'Raleway', lineHeight:'20pt',letterSpacing: '0.1pt' }} className="">Various projects gathered through independent consulting, summer work, and hobby programming. 2016-2020</p>
+                        <h1 style={{ fontFamily: 'Cabin', fontWeight: 600 }}>{this.state.category} Projects</h1>
+                        <p style={{ paddingBottom: '30px', fontFamily: 'Cabin', lineHeight:'20pt',letterSpacing: '0.1pt' }} className="">Various projects gathered through independent consulting, summer work, and hobby programming. 2016-2020</p>
 
                     </div>
-                    <div style={{ flexDirection: 'column' }} className="col-lg-3 col-md-4">
+                    <div className="col-lg-3 col-md-4">
                         
-                        <Button style={{float: 'left', transitionDuration: '0.5s', color: this.state.showAll ? "#fff" : "#000", backgroundColor: this.state.showAll ? "#000" : "transparent",borderColor:'#fff',border:'solid #fff',borderWeight:'2pt' }}
+                        <Button style={{float: 'left', transitionDuration: '0.5s', color: this.state.showAll ? "#fff" : "#59a1ff", backgroundColor: this.state.showAll ? "#59a1ff" : "transparent",borderColor:'#59a1ff',border:'solid #59a1ff 1px',borderWeight:'1px' }}
                             onClick={() => this.showAll()} icon circular
                         ><Icon name='th' />
 
                         </Button>
-                        <Button style={{padding:'10px',fontSize:'16pt',float: 'left', transitionDuration: '0.5s', color: this.state.frontendActive ? "#fff" : "#000", backgroundColor: this.state.frontendActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt' }}
+                        <Button style={{padding:'10px',fontSize:'16pt',float: 'left', transitionDuration: '0.5s', color: this.state.frontendActive ? "#fff" : "#59a1ff", backgroundColor: this.state.frontendActive ? "#59a1ff" : "transparent",borderColor:'#404040',border:'solid #59a1ff 1px',borderWeight:'1x' }}
                             onClick={() => this.changeCategory("Frontend")} icon circular
                         ><Icon name='react' />
 
                         </Button>
-                        <Button style={{float: 'left',borderRadius:'100%', transitionDuration: '0.5s', color: this.state.codeActive ?"#fff" : "#000", backgroundColor: this.state.codeActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt'}}
+                        <Button style={{float: 'left',borderRadius:'100%', transitionDuration: '0.5s', color: this.state.codeActive ?"#fff" : "#59a1ff", backgroundColor: this.state.codeActive ? "#59a1ff" : "transparent",borderColor:'#404040',border:'solid #59a1ff 1px',borderWeight:'1px'}}
                             onClick={() => this.changeCategory("Code")} icon 
                         ><Icon name='code' />
 
                         </Button>
-                        <Button style={{float: 'left', transitionDuration: '0.5s', color: this.state.designActive ? "#fff" : "#000", backgroundColor: this.state.designActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt' }}
+                        <Button style={{float: 'left', transitionDuration: '0.5s', color: this.state.designActive ? "#fff" : "#59a1ff", backgroundColor: this.state.designActive ? "#59a1ff" : "transparent",borderColor:'#404040',border:'solid #59a1ff 1px',borderWeight:'1px' }}
                             onClick={() => this.changeCategory("Design")} icon circular
                         ><Icon name='pencil' />
 

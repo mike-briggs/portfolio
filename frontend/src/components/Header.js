@@ -27,14 +27,14 @@ export class Header extends Component {
               <div className="col-lg-2 col-md-2">
               </div>
               <div className="col-lg-8 col-md-8 col-sm-12 spacingName">
-                <h1 style={{ paddingLeft: '15px', fontFamily: 'Raleway', fontWeight: 600 }}><ReactTypingEffect
+                <h1 style={{ paddingLeft: '15px', fontFamily: 'Cabin', fontWeight: 600 }}><ReactTypingEffect
                   text={["Hi I'm Mike Briggs.", "Frontend Engineer", "Software Engineer"]} speed={80} typingDelay={0} //text=["Hello.", "World!"]
                 /></h1>
                 <div className="col-lg-10 col-md-10 col-sm-12 col-12">
-                  <h4 style={{ fontFamily: 'Raleway' }} className="">I'm a Software Engineer studying in my final year at Queen's University with a passion for frontend development. I'm graduating April 2020 and actively looking for full time positions. Please see my design and engineering portfolio below.</h4>
+                  <h4 style={{ fontFamily: 'Cabin' }} className="">I'm a Software Engineer studying in my final year at Queen's University with a passion for frontend development. I'm graduating April 2020 and actively looking for full time positions. Please see my design and engineering portfolio below.</h4>
                   <div className="row">
                     <div className="col-lg-8 col-md-8 col-8">
-                      <h5 style={{ paddingBottom: '0px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Tech I Use</h5>
+                      <h5 style={{ paddingBottom: '0px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>Tech I Use</h5>
                       <ul style={{ display: 'flex', paddingTop: '5px' }} className="logoGroup">
                         <li><a style={{ padding: '15px', paddingLeft: '0px', paddingTop: '10px' }} className="logoIconA" href="#search"><img className="techIcon" style={{ paddingTop: '10px', width: '30px', height: 'auto' }} src={react}></img></a></li>
                         <li><a style={{ padding: '15px', paddingLeft: '15px', paddingTop: '10px' }} className="logoIconA" href="#search"><img className="techIcon" style={{ paddingTop: '10px', width: '30px', height: 'auto' }} src={java}></img></a></li>
@@ -44,7 +44,7 @@ export class Header extends Component {
                     </div>
                     <div className="col-lg-4 col-md-4 col-4">
                       {/*<a style={{ paddingBottom: '20px' }}>
-                        <Button onClick={() => { this.scroll("#fiscal") }} className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#1a73e8', color: 'white' }}>Continue</Button>
+                        <Button onClick={() => { this.scroll("#fiscal") }} className="main-button-slider" style={{ float: 'right', fontFamily: 'Cabin', fontWeight: 600, backgroundColor: '#1a73e8', color: 'white' }}>Continue</Button>
                       </a>*/}
                     </div>
                     <div className=" col-lg-12 col-md-12">

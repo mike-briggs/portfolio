@@ -52,7 +52,7 @@ export class App extends Component {
         <hr style={{padding:'20px',paddingAbove:'40px'}}></hr>
         <div className="container">
         <div className="col-lg-12 col-md-12 col-12">
-                      <h4 style={{ fontFamily: 'Raleway', paddingBottom:'20px',fontSize: '16px',float:'right' }} className="">Copyright &copy;  Mike Briggs.</h4>
+                      <h4 style={{ fontFamily: 'Cabin', paddingBottom:'20px',fontSize: '16px',float:'right' }} className="">Copyright &copy;  Mike Briggs.</h4>
                     </div>
         </div>
         

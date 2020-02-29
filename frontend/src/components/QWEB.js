@@ -20,15 +20,15 @@ export class QWEB extends Component {
               <div className="col-lg-3 col-md-3">
               </div>
               <div style={{ paddingTop: '50px', backgroundColor: 'none' }} className="col-lg-6 col-md-6 col-sm-12">
-                <h1 style={{ textAlign: 'center', fontFamily: 'Raleway', fontWeight: 600, color: 'white' }}><ReactTypingEffect
+                <h1 style={{ textAlign: 'center', fontFamily: 'Cabin', fontWeight: 600, color: 'white' }}><ReactTypingEffect
                   text={["Queen's Web Development", "Design Executive"]} speed={200} typingDelay={200} //text=["Hello.", "World!"]
                 /></h1>
                 <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                  <h4 style={{ paddingLeft: '15px', textAlign: 'center', fontFamily: 'Raleway', color: 'white' }} className="">Queen's Web Development Club is a student run organization that teaches students how to build websites through tutorials, workshops and real practice.</h4>
+                  <h4 style={{ paddingLeft: '15px', textAlign: 'center', fontFamily: 'Cabin', color: 'white' }} className="">Queen's Web Development Club is a student run organization that teaches students how to build websites through tutorials, workshops and real practice.</h4>
                   <div className="row">
                     <div className="col-lg-1 col-md-1 col-1"></div>
                     <div className="col-lg-6 col-md-6 col-8">
-                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', color: 'white', fontWeight: 600, textAlign: 'left' }}>Tech Used</h5>
+                      <h5 style={{ paddingBottom: '5px', fontFamily: 'Cabin', color: 'white', fontWeight: 600, textAlign: 'left' }}>Jan 2018 - Present</h5>
                       <ul style={{ display: 'flex' }} className="logoGroup">
                         <li><a style={{ padding: '15px', paddingLeft: '0px', paddingTop: '10px' }} className="logoIconA" href="#search"><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={react_white}></img></a></li>
                         <li><a style={{ padding: '15px', paddingTop: '10px' }} className="logoIconA"><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={ps_white}></img></a></li>
@@ -37,10 +37,10 @@ export class QWEB extends Component {
                     </div>
                     <div className="col-lg-4 col-md-4 col-2">
                       <a style={{ marginBottom: '20px' }}>
-                        <Button href="https://github.com/mike-briggs/qweb" target="_blank" className="main-button-slider" style={{ marginBottom: '10px', float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#107179', color: 'white' }}>Repo</Button>
+                        <Button href="https://github.com/mike-briggs/qweb" target="_blank" className="main-button-slider" style={{ marginBottom: '10px', float: 'right', fontFamily: 'Cabin', fontWeight: 600, backgroundColor: '#107179', color: 'white' }}>Repo</Button>
                       </a>
                       <a style={{ paddingBottom: '20px' }}>
-                        <Button href="https://qweb.dev" className="main-button-slider" target="_blank" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#144d5a', color: 'white' }}>Site</Button>
+                        <Button href="https://qweb.dev" className="main-button-slider" target="_blank" style={{ float: 'right', fontFamily: 'Cabin', fontWeight: 600, backgroundColor: '#144d5a', color: 'white' }}>Site</Button>
                       </a>
                     </div>
                     <div className="col-lg-1 col-md-1 col-1"></div>

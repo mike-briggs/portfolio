@@ -22,19 +22,19 @@ export class SFAST extends Component {
             <div style={{ padding: '0px' }} className="row" >
               
               <div className="col-lg-7 col-md-7 col-sm-12 spacing2">
-                <h1 style={{ paddingBottom:'20px',paddingTop:'100px',paddingLeft: '15px', fontFamily: 'Raleway', fontWeight: 700, textAlign: 'left' }}>Enbridge Station Field Assessment Survey Tool</h1>
+                <h1 style={{ paddingBottom:'20px',paddingTop:'100px',paddingLeft: '15px', fontFamily: 'Cabin', fontWeight: 700, textAlign: 'left' }}>Enbridge Station Field Assessment Survey Tool</h1>
                 <div className="col-lg-10 col-md-10 col-sm-12 col-12">
-                <h4 style={{ paddingBottom:'30px',fontFamily: 'Raleway', lineHeight:'20pt', fontSize:'14px',fontWeight:'400', letterSpacing:'0.1pt' }} className="">Internal Enbridge Application - Station Field Assesment Survey Tool. An application to collect information, photos and video about field asset integrity, automatically reporting findings to management.</h4>
+                <h4 style={{ paddingBottom:'30px',fontFamily: 'Cabin', lineHeight:'20pt', fontSize:'14px',fontWeight:'400', letterSpacing:'0.1pt' }} className="">Internal Enbridge Application - Station Field Assesment Survey Tool. An application to collect information, photos and video about field asset integrity, automatically reporting findings to management.</h4>
                   <div className="row">
                     <div className="col-lg-8 col-md-8 col-8">
-                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Aug. 2017</h5>
+                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>Aug. 2017</h5>
 
                       <TechUsed source1={ps} source2={sketch} source3={js}/>
                     </div>
                     <div className="col-lg-4 col-md-4 col-4">
 
                       <a style={{ paddingBottom: '20px' }}>
-                        <Button href="https://enbridge.com" className="main-button-slider" target="_blank" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#FFB615', color: 'black' }}>Enbridge</Button>
+                        <Button href="https://enbridge.com" className="main-button-slider" target="_blank" style={{ float: 'right', fontFamily: 'Cabin', fontWeight: 600, backgroundColor: '#FFB615', color: 'black' }}>Enbridge</Button>
                       </a>
                     </div>
                   </div>
@@ -50,9 +50,9 @@ export class SFAST extends Component {
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-2 col-md-3"></div>
                <div className="col-lg-10 col-md-10 col-sm-12 spacing2">
-                <h1 style={{ paddingBottom:'20px',paddingTop:'100px',paddingLeft: '15px', fontFamily: 'Raleway', fontWeight: 700, textAlign: 'left' }}>User Flow</h1>
+                <h1 style={{ paddingBottom:'20px',paddingTop:'100px',paddingLeft: '15px', fontFamily: 'Cabin', fontWeight: 700, textAlign: 'left' }}>User Flow</h1>
                 <div className="col-lg-10 col-md-10 col-sm-12 col-12">
-                <h4 style={{ paddingBottom:'30px',fontFamily: 'Raleway', lineHeight:'20pt', fontSize:'14px',fontWeight:'400', letterSpacing:'0.1pt' }} className="">Application is used by over 40 field staff to retrieve important details of in field assets through mobile use. Information retrieved can be viewed in desktop format for management. Increased usage by 10x compared to prior application</h4>
+                <h4 style={{ paddingBottom:'30px',fontFamily: 'Cabin', lineHeight:'20pt', fontSize:'14px',fontWeight:'400', letterSpacing:'0.1pt' }} className="">Application is used by over 40 field staff to retrieve important details of in field assets through mobile use. Information retrieved can be viewed in desktop format for management. Increased usage by 10x compared to prior application</h4>
                 
                 </div>
               </div>

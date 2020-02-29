@@ -18,9 +18,9 @@ export class Capstone extends Component {
                 <img style={{ width: '100%', borderRadius: '20px' }} src={drone}></img>
               </div>
               <div className="col-lg-7 col-md-12 col-sm-12 col-12 spacingDrone">
-                <h1 style={{ paddingLeft: '15px', fontSize: '40px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>4th Year Capstone <h1 style={{ fontSize: '24px', fontFamily: 'Raleway' }}>Anti-Drone Defence System</h1></h1>
+                <h1 style={{ paddingLeft: '15px', fontSize: '40px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>4th Year Capstone <h1 style={{ fontSize: '24px', fontFamily: 'Cabin' }}>Anti-Drone Defence System</h1></h1>
                 <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                  <h4 style={{ fontFamily: 'Raleway' }} className="">A system created to address the problem of recreational and malicious drone flight over airports and other areas. The system is a defence drone equipped with a camera, jetson nano, and retrieval net. After GPS coordinates of the rogue drone are given, the defence drone is able to track, hover, and remove the problem.
+                  <h4 style={{ fontFamily: 'Cabin' }} className="">A system created to address the problem of recreational and malicious drone flight over airports and other areas. The system is a defence drone equipped with a camera, jetson nano, and retrieval net. After GPS coordinates of the rogue drone are given, the defence drone is able to track, hover, and remove the problem.
                   <hr></hr>
                     <ul>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> Tiny YOLO v3 Object Detection</li>

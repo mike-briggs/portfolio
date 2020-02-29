@@ -37,7 +37,7 @@ export class NavBar extends Component {
                             <nav className="main-nav">
                                 <div className="container">
                                     <a href="#" className="logo" style={{ color: 'black' }}>
-                                        <h2 style={{ color: 'rgb(10, 10, 10)',fontFamily:'Raleway',  marginTop:'0px',fontSize: '18px', fontWeight: '600', marginTop: '0px', letterSpacing: '0' }}> Mike Briggs</h2>
+                                        <h2 style={{ color: 'rgb(10, 10, 10)',fontFamily:'Cabin',  marginTop:'0px',fontSize: '18px', fontWeight: '600', marginTop: '0px', letterSpacing: '0' }}> Mike Briggs</h2>
                                     </a>
                                     <div style={{float:'right', paddingTop: '7px'}}>
                                     <ul style={{ display: 'flex' ,paddingTop:'5px'}} className="logoGroup">
