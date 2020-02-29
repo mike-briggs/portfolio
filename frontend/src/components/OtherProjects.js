@@ -9,6 +9,7 @@ import cpp from '../assets/images/cpp.png'
 import qt from '../assets/images/qt.png'
 import java from '../assets/images/java.png'
 import ps from '../assets/images/ps.png'
+import wordpress from '../assets/images/wordpress.png'
 import android from '../assets/images/android.png'
 import sketch from '../assets/images/sketch.png'
 import node from '../assets/images/node.png'
@@ -22,7 +23,7 @@ import SFAST from './SFAST.js'
 import HAUS from './HAUS.js'
 import Reno from './Reno.js'
 import PM from './PM.js'
-
+import IconC from './Icon.js'
 import sayblue from '../assets/images/sayblue.jpg'
 import ProjectImage from './ImageCard.js'
 
@@ -36,7 +37,7 @@ export class OtherProjects extends Component {
         this.state = {
             open: false,showAll:true, open2: false, open3: false, open4: false, openHaus: false, openReno: false, openPM: false, category: "All", projectList: "", codeList: [
                 {
-                    color: "#59a1ff", iconName:"paint brush",type: "Design", year: "2019", onClick: this.open3, className: "", title: "Biotech Leadership", icon1: ps, icon2: js, icon3: php, desc: "Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services."
+                    color: "#59a1ff", iconName:"paint brush",type: "Design", year: "2019", onClick: this.open3, className: "", title: "Biotech Leadership", icon1: wordpress, icon2: js, icon3: php, desc: "Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services."
                 },
                 {
                     color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.open4, className: "", title: "Enbridge Station FAST", icon1: js, icon2: ps, icon3: sketch, desc: "[Internal] - Station Field Assesment Survey Tool. Application to collect information about field asset integrity and report findings to management."
@@ -49,6 +50,12 @@ export class OtherProjects extends Component {
                 },  
                 {
                     color: "#59a1ff", iconName:"paint brush",type: "Design", year: "2019", onClick: this.open2, className: "", title: "SAFE Dentistry", icon1: js, icon2: sketch, icon3: ps, desc: "Website designed for Safe Dentistry inc. a start-up speacializing in dental office safety inspections ensuring proper procedures."
+                },
+                {
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: ()=>window.open("https://github.com/mike-briggs/fiscalfresh"), className: "", title: "Fiscal Fresh", icon1: ps, icon2: js, icon3: php, desc: "Browse and search millions of healthy recipes, create a meal plan then continue to checkout. Required groceries will be auto added to Instacart."
+                },
+                {
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: ()=>window.open("https://github.com/mike-briggs/Space-HourLogger"), className: "", title: "Queen's Sci Formal", icon1: js, icon2: ps, icon3: sketch, desc: "This mern web application keeps track of 400+ simultaneous volunteers putting together the space themed formal. Features User, Manager, &amp; Admin."
                 },
                 {
                     color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.openPM, className: "", title: "Enbridge PM Tool", icon1: js, icon2: ps, icon3: sketch, desc: "[Internal] - Engineering Dept. Project Management Tool to allow PMs to submit status updates and display them on a compiled dashboard."
@@ -206,13 +213,13 @@ export class OtherProjects extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-2 col-md-2"></div>
-                    <div className="col-lg-7 col-md-9 col-sm-12 col-12 ">
+                    <div className="col-lg-2"></div>
+                    <div className="col-lg-7 col-md-8 col-sm-12 col-12 ">
                         <h1 style={{ fontFamily: 'Raleway', fontWeight: 600 }}>{this.state.category} Projects</h1>
                         <p style={{ paddingBottom: '30px', fontFamily: 'Raleway', letterSpacing: '0.1pt' }} className="">Various projects gathered through independent consulting, summer work, and hobby programming. 2016-2020</p>
 
                     </div>
-                    <div style={{ flexDirection: 'column' }} className="col-lg-3 col-md-3">
+                    <div style={{ flexDirection: 'column' }} className="col-lg-3 col-md-4">
                         
                         <Button style={{ borderRadius:'100%',float: 'left', transitionDuration: '0.5s', color: this.state.showAll ? "#fff" : "#000", backgroundColor: this.state.showAll ? "#000" : "transparent",borderColor:'#fff',border:'solid #fff',borderWeight:'2pt' }}
                             onClick={() => this.showAll()} icon
@@ -232,8 +239,24 @@ export class OtherProjects extends Component {
                         
                     </div>
 
+                    <div className="col-lg-2 col-md-1"></div>
+                    
+                    <ul style={{ display: 'flex',opacity:'.1',float:'left',textAlign:'left'}} className="logoGroup">
+                  <li><IconC link="" image={react} style={{ paddingLeft: '0px',display:this.state.codeActive ? 'none !important' : undefined}} /></li>
+                  <li><IconC link="" image={node} /></li>
+                  <li><IconC link="" image={sketch} /></li>
+                  <li><IconC link="" image={java} /></li>
+                  <li><IconC link="" image={js} /></li>
+                  <li><IconC link="" image={wordpress} /></li>
+                  <li><IconC link="" image={python} /></li>
+                  <li><IconC link="" image={cpp} /></li>
+                  <li><IconC link="" image={qt} /></li>
+                  <li><IconC link="" image={ps} /></li>
+
+                </ul>
+
                 </div>
-                <hr style={{ paddingBottom: '30px' }}></hr>
+                
                 
 
                 <div style={{
