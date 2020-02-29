@@ -61,8 +61,8 @@ export class ProjectCard extends Component {
     /*style={{margin:'10px',boxShadow: '0px 5px 20px rgba(0, 0, 0, 0.04)'}} */
     return (
       <div onClick={this.props.onClick} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={style} className="col-lg-4 col-md-12 col-sm-12 col-12">
-        <Button style={{ float: 'right', marginTop:'20px',padding:'10px',borderRadius:'100%',backgroundColor:'white',transitionDuration:'0.5s',fontSize:'18pt', color:this.props.color}}
-          onClick={this.close4} icon
+        <Button style={{ float: 'right', borderRadius:'100%',marginTop:'20px',padding:'12px',backgroundColor:'white',transitionDuration:'0.5s',fontSize:'16pt', color:this.props.color}}
+          onClick={this.close4} icon 
         ><Icon name={this.props.iconName} />
 
         </Button>
@@ -84,9 +84,9 @@ export class ProjectCard extends Component {
             </div>
 
           </div>
-          <h4 style={{ float: 'right',fontColor:'white' }} onClick={this.props.onClick} style={show}>View Project<Button style={{ float: 'right', marginRight:'-8px',marginLeft:'10px',padding:'4px',borderRadius:'100%',backgroundColor:'white',transitionDuration:'0.5s',fontSize:'14pt', color:this.props.color}}
-          onClick={this.close4} icon
-        ><Icon name='angle right' />
+          <h4 style={{ float: 'right',fontColor:'white' }} onClick={this.props.onClick} style={show}>View Project<Button style={{ float: 'right', marginRight:'-8px',marginLeft:'10px',padding:'4px',backgroundColor:'white',transitionDuration:'0.5s',fontSize:'14pt', color:this.props.color}}
+          onClick={this.close4} icon circular
+        ><Icon name='caret right' />
 
         </Button></h4>
         </div>

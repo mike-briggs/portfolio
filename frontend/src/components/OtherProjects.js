@@ -231,23 +231,23 @@ export class OtherProjects extends Component {
                     </div>
                     <div style={{ flexDirection: 'column' }} className="col-lg-3 col-md-4">
                         
-                        <Button style={{ borderRadius:'100%',float: 'left', transitionDuration: '0.5s', color: this.state.showAll ? "#fff" : "#000", backgroundColor: this.state.showAll ? "#000" : "transparent",borderColor:'#fff',border:'solid #fff',borderWeight:'2pt' }}
-                            onClick={() => this.showAll()} icon
+                        <Button style={{float: 'left', transitionDuration: '0.5s', color: this.state.showAll ? "#fff" : "#000", backgroundColor: this.state.showAll ? "#000" : "transparent",borderColor:'#fff',border:'solid #fff',borderWeight:'2pt' }}
+                            onClick={() => this.showAll()} icon circular
                         ><Icon name='th' />
 
                         </Button>
-                        <Button style={{ borderRadius:'100%',padding:'10px',fontSize:'16pt',float: 'left', transitionDuration: '0.5s', color: this.state.frontendActive ? "#fff" : "#000", backgroundColor: this.state.frontendActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt' }}
-                            onClick={() => this.changeCategory("Frontend")} icon
+                        <Button style={{padding:'10px',fontSize:'16pt',float: 'left', transitionDuration: '0.5s', color: this.state.frontendActive ? "#fff" : "#000", backgroundColor: this.state.frontendActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt' }}
+                            onClick={() => this.changeCategory("Frontend")} icon circular
                         ><Icon name='react' />
 
                         </Button>
-                        <Button style={{ borderRadius:'100%',float: 'left', transitionDuration: '0.5s', color: this.state.codeActive ?"#fff" : "#000", backgroundColor: this.state.codeActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt'}}
-                            onClick={() => this.changeCategory("Code")} icon
+                        <Button style={{float: 'left',borderRadius:'100%', transitionDuration: '0.5s', color: this.state.codeActive ?"#fff" : "#000", backgroundColor: this.state.codeActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt'}}
+                            onClick={() => this.changeCategory("Code")} icon 
                         ><Icon name='code' />
 
                         </Button>
-                        <Button style={{ borderRadius:'100%',float: 'left', transitionDuration: '0.5s', color: this.state.designActive ? "#fff" : "#000", backgroundColor: this.state.designActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt' }}
-                            onClick={() => this.changeCategory("Design")} icon
+                        <Button style={{float: 'left', transitionDuration: '0.5s', color: this.state.designActive ? "#fff" : "#000", backgroundColor: this.state.designActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt' }}
+                            onClick={() => this.changeCategory("Design")} icon circular
                         ><Icon name='pencil' />
 
                         </Button>
@@ -257,7 +257,7 @@ export class OtherProjects extends Component {
 
                     <div className="col-lg-2 col-md-1 col-sm-12 col-12"></div>
                     
-                    <ul style={{ display: 'flex',opacity:'.1',float:'left',textAlign:'left',paddingTop:'20px'}} className="logoGroup">
+                    {/*<ul style={{ display: 'flex',opacity:'.1',float:'left',textAlign:'left',paddingTop:'20px'}} className="logoGroup">
                   <li><IconC link="" image={react} style={{ paddingLeft: '0px',display:this.state.codeActive ? 'none !important' : undefined}} /></li>
                   <li><IconC link="" image={java} /></li>
                   <li><IconC link="" image={js} /></li>
@@ -267,7 +267,7 @@ export class OtherProjects extends Component {
                   <li><IconC link="" image={wordpress} /></li>
                   <li><IconC link="" image={python} /></li>
 
-                </ul>
+                </ul>*/}
 
                 </div>
                 
