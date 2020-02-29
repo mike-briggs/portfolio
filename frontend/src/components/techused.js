@@ -7,10 +7,8 @@ export class techused extends Component {
                 <ul style={{ display: 'flex' }} className="logoGroup">
                         
                         <li><a style={{ padding: '15px', paddingLeft: '0px', paddingTop: '10px', paddingRight: '15px' }} className="logoIconA" href="#search"><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={this.props.source1}></img></a></li>
-                        <li><a style={{ padding: '0px', paddingTop: '0px' }} className=""><hr style={{ width: '1px', marginTop: '1px', height: '100%', backgroundColor: 'lightGrey' }}></hr></a></li>
 
                         <li><a style={{ padding: '15px', paddingTop: '10px', paddingRight: '15px' }} className="logoIconA"><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={this.props.source2}></img></a></li>
-                        <li><a style={{ padding: '0px', paddingTop: '0px' }} className=""><hr style={{ width: '1px', marginTop: '1px', height: '100%', backgroundColor: 'lightGrey' }}></hr></a></li>
                         <li><a style={{ padding: '15px', paddingTop: '10px', paddingRight: '15px' }} className="logoIconA"><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={this.props.source3}></img></a></li>
                       </ul>
             </div>

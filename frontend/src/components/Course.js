@@ -12,17 +12,17 @@ import "slick-carousel/slick/slick-theme.css";
 export class Course extends Component {
   render() {
     return (
-      <div style={{ marginTop: '0px', backgroundColor: '#fff', backgroundImage: 'none' }} className="welcome-area" id="sci">
+      <div style={{ marginTop: '0px', backgroundColor: '#fff', backgroundImage: 'none' }} className="" id="">
         <div className="header-text">
             <div style={{ padding: '0px' }} className="row" >
-              <div className="col-lg-1 col-md-1"></div>
-              <div className="col-lg-5 col-md-12 col-sm-12 col-12 spacingCourse">
-                <h1 style={{ paddingLeft: '15px', fontSize: '24px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Algorithm Implementations</h1>
+              <div className="col-lg-2 col-md-2"></div>
+              <div className="col-lg-4 col-md-12 col-sm-12 col-12 spacingCourse">
+                <h1 style={{ paddingLeft: '15px', fontSize: '20pt',paddingBottom:'20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Algorithm Implementations</h1>
                 <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                  <h4 style={{ fontFamily: 'Raleway' }} className="">Various algorithm program implementations in Java to solve real world problems at a small scale.
+                <h4 style={{ paddingBottom:'30px',fontFamily: 'Raleway', lineHeight:'20pt', fontSize:'12pt',fontWeight:'500', letterSpacing:'0.1pt' }} className="">Various algorithm program implementations in Java to solve real world problems at a small scale.
                     <hr></hr>
-                    <ul>
-                      <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> Travel Planning (Djikstra)</li>
+                    <ul style={{ paddingBottom:'0px',fontFamily: 'Raleway', lineHeight:'15pt', fontSize:'10pt',fontWeight:'500', letterSpacing:'0.1pt' }}>
+                      <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a > Travel Planning (Djikstra)</li>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> Subset with Target Sum</li>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> Huffman Coding</li>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> File Differences (LCS)</li>
@@ -45,12 +45,13 @@ export class Course extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5 col-md-12 col-sm-12 spacingCourse">
-                <h1 style={{ paddingLeft: '15px', fontSize: '24px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Quality Assurance Project</h1>
+              <div className="col-lg-1 col-md-1"></div>
+              <div className="col-lg-4 col-md-12 col-sm-12 spacingCourse">
+              <h1 style={{ paddingLeft: '15px', fontSize: '20pt',paddingBottom:'20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Quality Assurance Project</h1>
                 <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                  <h4 style={{ fontFamily: 'Raleway' }} className=""> Simple banking system in python to practice Quality Assurance methods in a simulated environment.
+                <h4 style={{ paddingBottom:'0px',fontFamily: 'Raleway', lineHeight:'20pt', fontSize:'12pt',fontWeight:'500', letterSpacing:'0.1pt' }} className=""> Simple banking system in python to practice Quality Assurance methods in a simulated environment.
                     <hr></hr>
-                    <ul>
+                    <ul style={{ paddingBottom:'30px',fontFamily: 'Raleway', lineHeight:'15pt', fontSize:'10pt',fontWeight:'500', letterSpacing:'0.1pt' }}>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> Common Testing Techniques with pytest</li>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> Software Dev Lifecycle Procedures</li>
                       <li><a style={{ fontSize: '22px', fontWeight: '700', paddingRight: '10px' }}>></a> Agile Development </li>

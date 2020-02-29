@@ -24,13 +24,13 @@ export class HAUS extends Component {
                 <h4 style={{ paddingBottom:'30px',fontFamily: 'Raleway', lineHeight:'20pt', fontSize:'14px',fontWeight:'400', letterSpacing:'0.1pt' }} className="">Tinder for Renting Houses! Swipe to find the ideal rental property for you and your housemates. First year Capstone project developed in Android Studio as an oppourtunity to develop a business alongside the software to make it work.</h4>
                   <div className="row">
                     <div className="col-lg-8 col-md-8 col-8">
-                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Tech Used</h5>
+                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Year '16-17</h5>
                       
                       <TechUsed source1={java} source2={ps} source3={android}/>
 
                     </div>
                     <div className="col-lg-4 col-md-4 col-4" style={{ paddingBottom: '20px' }}>
-                      <Button href="http://safedentistryinc.com" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#813cc7', color: 'white' }}>Site</Button>
+                      <Button href="http://github.com/mike-briggs" target="_blank" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#813cc7', color: 'white' }}>Repo</Button>
                     </div>
                   </div>
                 </div>

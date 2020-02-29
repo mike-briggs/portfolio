@@ -28,22 +28,22 @@ export class ProjectCard extends Component {
   render() {
     const style = {
       cursor: this.state.hovering ? 'pointer' : undefined,transitionDuration: '0.6s',
-      margin: '10px', borderWeight: '10px', boxShadow: '0px 5px 5px rgba(0, 0, 0, 0.04)',backgroundColor:this.state.hovering ? this.props.color : 'white',borderRadius:this.state.hovering ? '20px' : '0px'
+      margin: '10px', borderWeight: '10px', boxShadow: '0px 5px 5px rgba(0, 0, 0, 0.04)',backgroundColor:this.state.hovering ? this.props.color : 'white',borderRadius:this.state.hovering ? '8px' : '0px'
 
     };
     const hide = {
-      opacity: this.state.hovering ? '10%' : '100%', transitionDuration: '0.2s',
-      paddingTop: '30px', paddingLeft: '15px', fontColor: { color }, fontSize: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left'
+      color: this.state.hovering ? 'white' : 'black', transitionDuration: '0.2s',
+      paddingTop: '30px', paddingLeft: '15px', fontColor: { color }, fontSize: '18pt', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left'
 
     }
     const hide2 = {
-      opacity: this.state.hovering ? '10%' : '100%', transitionDuration: '0.5s', paddingTop: '20px', fontFamily: 'Raleway', fontSize: '12px', textAlign: 'left'
+      color: this.state.hovering ? 'white' : 'black',transitionDuration: '0.6s',letterSpacing:'0.3pt',lineHeight:'20pt', paddingTop: '5px', fontFamily: 'Raleway', fontSize: '12pt', textAlign: 'left',fontWeight:this.state.hovering ? '500' : '500'
     }
     const hide3 = {
       opacity: this.state.hovering ? '3%':'90%' , transitionDuration: '0.7s', float: 'left',zIndex:-99
     }
     const show = {
-      opacity: this.state.hovering ? '100%' : '0%', transitionDuration: '0.4s', marginTop: '-50px', paddingBottom: '20px', fontFamily: 'Raleway', zIndex:99,fontWeight: '700', fontSize: '36px',color:'#fff',
+      opacity: this.state.hovering ? '100%' : '0%', transitionDuration: '0.4s', marginTop: '-50px', paddingBottom: '20px', fontFamily: 'Raleway', zIndex:99,fontWeight: '700', fontSize: '16pt',color:'#fff',
       float: 'right'
     }
 
@@ -60,10 +60,10 @@ export class ProjectCard extends Component {
 */
     /*style={{margin:'10px',boxShadow: '0px 5px 20px rgba(0, 0, 0, 0.04)'}} */
     return (
-      <div onClick={this.props.onClick} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={style} className="col-lg-4 col-md-4 col-sm-12 col-12">
-        <Button style={{ float: 'right', transitionDuration:'0.5s',opacity: this.state.hovering ? '100%' : '60%',fontSize:'36px', backgroundColor:'transparent', color:'#fff'}}
+      <div onClick={this.props.onClick} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={style} className="col-lg-4 col-md-12 col-sm-12 col-12">
+        <Button style={{ float: 'right', marginTop:'20px',padding:'10px',borderRadius:'100%',backgroundColor:'white',transitionDuration:'0.5s',fontSize:'16pt', color:'#59a1ff'}}
           onClick={this.close4} icon
-        ><Icon name='code' />
+        ><Icon name={this.props.iconName} />
 
         </Button>
         <h1 style={hide}>{this.props.title}</h1>
@@ -84,7 +84,11 @@ export class ProjectCard extends Component {
             </div>
 
           </div>
-          <h4 style={{ float: 'right',fontColor:'white' }} onClick={this.props.onClick} style={show}>View Project  ></h4>
+          <h4 style={{ float: 'right',fontColor:'white' }} onClick={this.props.onClick} style={show}>View Project<Button style={{ float: 'right', marginRight:'-8px',marginLeft:'10px',padding:'4px',borderRadius:'100%',backgroundColor:'white',transitionDuration:'0.5s',fontSize:'14pt', color:'#59a1ff'}}
+          onClick={this.close4} icon
+        ><Icon name='angle right' />
+
+        </Button></h4>
         </div>
 
 

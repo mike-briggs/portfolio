@@ -26,7 +26,7 @@ export class Fiscal extends Component {
                     <h1 style={{ paddingLeft: '15px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Fiscal Fresh                      <h4 style={{ fontFamily: 'Raleway', fontWeight: 600, marginBottom: '0px' }} className=""><img className="techIcon" style={{ paddingTop: '10px', width: '16px', height: 'auto' }} src={star}></img>&nbsp;&nbsp;QHacks 2020 Top 3 Best Hack</h4></h1>
                     <hr></hr>
                     <div className="col-lg-10 col-md-10 col-sm-12 col-12">
-                      <h4 style={{ fontFamily: 'Raleway' }} className="">Web application to auto add required healthy recipe ingredients to Instacart checkout. Cuts out the middle man of meal delivery services and allows the user to do it themselves.</h4>
+                      <p style={{ fontFamily: 'Raleway' }} className="">Browse and search millions of healthy recipes, create a meal plan then continue to checkout. Required groceries will be auto added to Instacart checkout. This web application aims to cut out the middle man of meal delivery services and brings the savings back to the consumer.</p>
                       <div className="row">
                         <div className="col-lg-8 col-md-8 col-8">
                           <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Tech Used</h5>

@@ -1,18 +1,18 @@
-import React, { Component } from 'react'
+import React, { Component,createRef } from 'react'
 import ReactDOM from 'react-dom';
 import '../assets/css/bootstrap.min.css'
 import '../assets/css/font-awesome.css'
 import Project from './ProjectCard.js'
 import python from '../assets/images/python.png'
 import js from '../assets/images/js.png'
-import ps from '../assets/images/ps.png'
 import cpp from '../assets/images/cpp.png'
 import qt from '../assets/images/qt.png'
-
+import java from '../assets/images/java.png'
+import ps from '../assets/images/ps.png'
+import android from '../assets/images/android.png'
 import sketch from '../assets/images/sketch.png'
 import node from '../assets/images/node.png'
 import php from '../assets/images/php.png'
-import java from '../assets/images/java.png'
 import react from '../assets/images/react.png'
 import './App.css'
 import Course from './Course.js'
@@ -26,7 +26,7 @@ import PM from './PM.js'
 import sayblue from '../assets/images/sayblue.jpg'
 import ProjectImage from './ImageCard.js'
 
-import { Button, Header, Icon, Modal, Dropdown, Sticky } from 'semantic-ui-react'
+import { Button, Header, Icon, Modal, Dropdown, Sticky, Ref } from 'semantic-ui-react'
 
 
 export class OtherProjects extends Component {
@@ -36,29 +36,34 @@ export class OtherProjects extends Component {
         this.state = {
             open: false,showAll:true, open2: false, open3: false, open4: false, openHaus: false, openReno: false, openPM: false, category: "All", projectList: "", codeList: [
                 {
-                    color: "#05c3de", type: "Design", year: "2019", onClick: this.open3, className: "", title: "Biotech Leadership", icon1: js, icon2: php, icon3: ps, desc: "Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services."
+                    color: "#59a1ff", iconName:"paint brush",type: "Design", year: "2019", onClick: this.open3, className: "", title: "Biotech Leadership", icon1: ps, icon2: js, icon3: php, desc: "Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services."
                 },
                 {
-                    color: "#FFB615", type: "Code", year: "2019", onClick: this.open4, className: "", title: "Enbridge Station FAST", icon1: js, icon2: ps, icon3: sketch, desc: "Internal Enbridge Application - Station Field Assesment Survey Tool. An application to collect information about field asset integrity and report findings to management."
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.open4, className: "", title: "Enbridge Station FAST", icon1: js, icon2: ps, icon3: sketch, desc: "[Internal] - Station Field Assesment Survey Tool. Application to collect information about field asset integrity and report findings to management."
                 },
                 {
-                    color: "#813cc7", type: "Code", year: "2019", onClick: this.open, className: "", title: "Course Projects", icon1: java, icon2: python, icon3: "", desc: "Various algorithm implementations in Java with brute force and optimized approaches and comparisons. Simulated banking system in Python to practice common QA techniques."
-                },
-                
-                {
-                    color: "#23beed", type: "Design", year: "2019", onClick: this.open2, className: "", title: "SAFE Dentistry", icon1: js, icon2: sketch, icon3: ps, desc: "Website designed for Safe Dentistry inc. a start-up speacializing in dental office safety inspections ensuring proper procedures."
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.open, className: "", title: "Course Projects", icon1: java, icon2: python, icon3: "", desc: "Various algorithm implementations in Java with brute force and optimized approaches and comparisons. Simulated banking system in Python to practice common QA techniques."
                 },
                 {
-                    color: "#FFB615", type: "Code", year: "2019", onClick: this.openPM, className: "", title: "Enbridge PM Tool", icon1: js, icon2: ps, icon3: sketch, desc: "Internal Enbridge Application - Engineering Dept. Project Management Tool to allow PMs to submit status updates and display them on a compiled dashboard."
+                    color: "#59a1ff", iconName:"paint brush",type: "Design", year: "2020", onClick: ()=>window.open("https://www.figma.com/proto/cvDTmlYK6qZVFkQawCAyOn/SparQ-Mockup?node-id=20%3A8&viewport=118%2C599%2C0.19171765446662903&scaling=scale-down-width"), className: "", title: "SparQ Studios", icon1: react, icon2: ps, icon3: sketch, desc: "SparQ Studios is a makerspace and design studio that provides a wide range of tools, machinery, knowledge, and expertise so that you can bring your idea into a physical form. "
+                },  
+                {
+                    color: "#59a1ff", iconName:"paint brush",type: "Design", year: "2019", onClick: this.open2, className: "", title: "SAFE Dentistry", icon1: js, icon2: sketch, icon3: ps, desc: "Website designed for Safe Dentistry inc. a start-up speacializing in dental office safety inspections ensuring proper procedures."
                 },
                 {
-                    color: "#e0822b", type: "Code", year: "2019", onClick: this.openReno, className: "", title: "Reno Mobile App", icon1: react, icon2: ps, icon3: sketch, desc: "React Native application to help streamline finding contractors for renovations and emergency jobs. Tracks materials purchased, hours, etc. helping homeowners."
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.openPM, className: "", title: "Enbridge PM Tool", icon1: js, icon2: ps, icon3: sketch, desc: "[Internal] - Engineering Dept. Project Management Tool to allow PMs to submit status updates and display them on a compiled dashboard."
                 },
                 {
-                    color: "#e0822b", type: "code", year: "2019", onClick: this.openSoon, className: "", title: "Landlord-Tenant App", icon1: cpp, icon2: qt, icon3: ps, desc: "Lead agile development of C++ application to help tenants effectively communicate with their Landlords through messaging, maintenance requests, and rent payments."
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.openReno, className: "", title: "Reno Mobile App", icon1: react, icon2: ps, icon3: sketch, desc: "React Native application to help streamline finding contractors and tracks materials purchased, working hours, timeline etc."
                 },
                 {
-                    color: "#813cc7", type: "code", year: "2019", onClick: this.openHaus, className: "", title: "HAUS Mobile App", icon1: java, icon2: ps, icon3: sketch, desc: "Tinder for Renting Houses! First year Capstone project developed in Android Studio. Oppourtunity to develop a business alongside the software to make it work."
+                    color: "#59a1ff", iconName:"paint brush",type: "Design", year: "2020", onClick: ()=>window.open("https://www.figma.com/proto/wG7ZIz0ZDlt330kWFDed13/QMIX?node-id=246%3A30&viewport=764%2C155%2C0.10421545803546906&scaling=scale-down-width"), className: "", title: "QMIX Social Club", icon1: sketch, ps: ps, icon3: react, desc: "A new social club at Queen's University … that aims to provide a welcoming space for all students."
+                },
+                {
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.openSoon, className: "", title: "Landlord-Tenant App", icon1: cpp, icon2: qt, icon3: ps, desc: "Lead agile development of C++ application to help tenants effectively communicate with their Landlords through messaging, maintenance requests, and rent payments."
+                },
+                {
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.openHaus, className: "", title: "HAUS Mobile App", icon1: java, icon2: ps, icon3: android, desc: "Tinder for Renting Houses! First year Capstone project developed in Android Studio. Oppourtunity to develop a business alongside the software to make it work."
                 }
             ], codeActive: false, designActive: false,
         }
@@ -98,10 +103,9 @@ export class OtherProjects extends Component {
         this.setState({category: "All",showAll:true, codeActive:false,designActive:false})
     }
 
-
+    
 
     render() {
-
         
 
         /*<Project color="#23beed" year="2019" onClick={this.open2} title="SAFE Dentistry" icon1={sketch} icon2={ps} icon3={js} desc="Website designed for Safe Dentistry inc. a start-up speacializing in dental office safety inspections ensuring proper procedures." />
@@ -128,6 +132,7 @@ export class OtherProjects extends Component {
         ]
         return (
             <div className="container" >
+                
                 <div className="row">
                     <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <Modal open={open} onClose={this.close} style={{ width: '100%', padding: '30px' }} >
@@ -200,7 +205,6 @@ export class OtherProjects extends Component {
                         </Modal>
                     </div>
                 </div>
-
                 <div className="row">
                     <div className="col-lg-2 col-md-2"></div>
                     <div className="col-lg-7 col-md-9 col-sm-12 col-12 ">
@@ -209,16 +213,7 @@ export class OtherProjects extends Component {
 
                     </div>
                     <div style={{ flexDirection: 'column' }} className="col-lg-3 col-md-3">
-                        {/*<Dropdown style={{ float: 'right' }}
-                        placeholder='Code'
-                        fluid
-                        selection
-                        options={dropdown}
-                    /><Button style={{float: 'left', transitionDuration:'0.5s'}}
-                    onClick={()=>this.changeCategory("")} icon
-                            ><Icon name='th'/>
-  
-                        </Button>*/}
+                        
                         <Button style={{ borderRadius:'100%',float: 'left', transitionDuration: '0.5s', color: this.state.showAll ? "#fff" : "#000", backgroundColor: this.state.showAll ? "#000" : "transparent",borderColor:'#fff',border:'solid #fff',borderWeight:'2pt' }}
                             onClick={() => this.showAll()} icon
                         ><Icon name='th' />
@@ -239,6 +234,7 @@ export class OtherProjects extends Component {
 
                 </div>
                 <hr style={{ paddingBottom: '30px' }}></hr>
+                
 
                 <div style={{
                     display: 'flex',
@@ -249,17 +245,18 @@ export class OtherProjects extends Component {
 
                         ?
                         this.state.codeList.map(item => (
-                            <Project color={item.color} onClick={item.onClick} year="2019" className="" title={item.title} icon1={item.icon1} icon2={item.icon2} icon3={item.icon3} desc={item.desc} />
+                            <Project iconName={item.iconName} color={item.color} onClick={item.onClick} year="2019" className="" title={item.title} icon1={item.icon1} icon2={item.icon2} icon3={item.icon3} desc={item.desc} />
                         ))
 
                         :
 
                         this.state.codeList.filter(item => item.type === this.state.category).map(item => (
-                            <Project color={item.color} onClick={item.onClick} year="2019" className="" title={item.title} icon1={item.icon1} icon2={item.icon2} icon3={item.icon3} desc={item.desc} />
+                            <Project iconName={item.iconName} color={item.color} onClick={item.onClick} year="2019" className="" title={item.title} icon1={item.icon1} icon2={item.icon2} icon3={item.icon3} desc={item.desc} />
                         ))
 
                     }
                 </div>
+                
             </div>
         )
     }

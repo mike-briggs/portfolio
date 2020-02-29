@@ -35,10 +35,10 @@ export class Formal extends Component {
                     </div>
                     <div className="col-lg-4 col-md-4 col-4">
                       <a style={{ marginBottom: '20px' }}>
-                        <Button href="https://github.com/mike-briggs/Space-HourLogger" className="main-button-slider" style={{ marginBottom: '10px', float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#f16b2b', color: 'white' }}>Repo </Button>
+                        <Button href="https://github.com/mike-briggs/Space-HourLogger" target="_blank" className="main-button-slider" style={{ marginBottom: '10px', float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#f16b2b', color: 'white' }}>Repo </Button>
                       </a>
                       <a style={{ paddingBottom: '20px' }}>
-                        <Button href="https://app.scienceformal.ca" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#2f1667', color: 'white' }}>Site</Button>
+                        <Button href="https://app.scienceformal.ca" target="_blank" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#2f1667', color: 'white' }}>Site</Button>
                       </a>
                     </div>
                   </div>

@@ -31,18 +31,16 @@ export class QWEB extends Component {
                       <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', color: 'white', fontWeight: 600, textAlign: 'left' }}>Tech Used</h5>
                       <ul style={{ display: 'flex' }} className="logoGroup">
                         <li><a style={{ padding: '15px', paddingLeft: '0px', paddingTop: '10px' }} className="logoIconA" href="#search"><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={react_white}></img></a></li>
-                        <li><a style={{ padding: '0px', paddingTop: '0px' }} className=""><hr style={{ width: '1px', marginTop: '1px', height: '100%', backgroundColor: 'white' }}></hr></a></li>
                         <li><a style={{ padding: '15px', paddingTop: '10px' }} className="logoIconA"><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={ps_white}></img></a></li>
-                        <li><a style={{ padding: '0px', paddingTop: '0px' }} className=""><hr style={{ width: '1px', marginTop: '1px', height: '100%', backgroundColor: 'white' }}></hr></a></li>
                         <li><a style={{ padding: '15px', paddingTop: '10px' }} className="logoIconA"><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={sketch_white}></img></a></li>
                       </ul>
                     </div>
                     <div className="col-lg-4 col-md-4 col-2">
                       <a style={{ marginBottom: '20px' }}>
-                        <Button href="https://github.com/mike-briggs/qweb" className="main-button-slider" style={{ marginBottom: '10px', float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#107179', color: 'white' }}>Repo</Button>
+                        <Button href="https://github.com/mike-briggs/qweb" target="_blank" className="main-button-slider" style={{ marginBottom: '10px', float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#107179', color: 'white' }}>Repo</Button>
                       </a>
                       <a style={{ paddingBottom: '20px' }}>
-                        <Button href="https://qweb.dev" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#144d5a', color: 'white' }}>Site</Button>
+                        <Button href="https://qweb.dev" className="main-button-slider" target="_blank" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#144d5a', color: 'white' }}>Site</Button>
                       </a>
                     </div>
                     <div className="col-lg-1 col-md-1 col-1"></div>

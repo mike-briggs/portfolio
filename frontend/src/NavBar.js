@@ -42,8 +42,8 @@ export class NavBar extends Component {
                                     <div style={{float:'right', paddingTop: '7px'}}>
                                     <ul style={{ display: 'flex' ,paddingTop:'5px'}} className="logoGroup">
 
-                                        <li><Icon link="https://github.com/mike-briggs" image={git}/></li>
-                                        <li><Icon link="https://www.linkedin.com/in/mike-briggs-06990a123/" image={linkedin}/></li>
+                                        <li><Icon link="https://github.com/mike-briggs" target="_blank" image={git}/></li>
+                                        <li><Icon link="https://www.linkedin.com/in/mike-briggs-06990a123/" target="_blank" image={linkedin}/></li>
 
                                     </ul>
                                     </div>

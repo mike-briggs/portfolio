@@ -24,7 +24,7 @@ export class Reno extends Component {
                   <h4 style={{ paddingBottom:'30px',fontFamily: 'Raleway', lineHeight:'20pt', fontSize:'14px',fontWeight:'400', letterSpacing:'0.1pt' }} className="">React Native application to help streamline finding contractors for renovations and emergency jobs. Tracks materials purchased, working hours, timeline etc. Features come from two sides: to help homeowners stay on budget with reliable service and help skilled contractors find more business.</h4>
                   <div className="row">
                     <div className="col-lg-8 col-md-8 col-8">
-                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Tech Used</h5>
+                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Aug. 2019</h5>
                       
                       <TechUsed source1={react} source2={ps} source3={sketch}/>
 

@@ -37,11 +37,8 @@ export class Header extends Component {
                       <h5 style={{ paddingBottom: '0px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Tech I Use</h5>
                       <ul style={{ display: 'flex', paddingTop: '5px' }} className="logoGroup">
                         <li><a style={{ padding: '15px', paddingLeft: '0px', paddingTop: '10px' }} className="logoIconA" href="#search"><img className="techIcon" style={{ paddingTop: '10px', width: '30px', height: 'auto' }} src={react}></img></a></li>
-                        <li><a style={{ padding: '0px', paddingTop: '0px' }} className=""><hr style={{ width: '1px', marginTop: '1px', height: '80%', backgroundColor: 'lightGrey' }}></hr></a></li>
                         <li><a style={{ padding: '15px', paddingLeft: '15px', paddingTop: '10px' }} className="logoIconA" href="#search"><img className="techIcon" style={{ paddingTop: '10px', width: '30px', height: 'auto' }} src={java}></img></a></li>
-                        <li><a style={{ padding: '0px', paddingTop: '0px' }} className=""><hr style={{ width: '1px', marginTop: '1px', height: '80%', backgroundColor: 'lightGrey' }}></hr></a></li>
                         <li><a style={{ padding: '15px', paddingLeft: '15px', paddingTop: '10px' }} className="logoIconA" href="#search"><img className="techIcon" style={{ paddingTop: '10px', width: '30px', height: 'auto' }} src={python}></img></a></li>
-                        <li><a style={{ padding: '0px', paddingTop: '0px' }} className=""><hr style={{ width: '1px', marginTop: '1px', height: '80%', backgroundColor: 'lightGrey' }}></hr></a></li>
                         <li><a style={{ padding: '15px', paddingLeft: '15px', paddingTop: '10px' }} className="logoIconA" href="#search"><img className="techIcon" style={{ paddingTop: '10px', width: '30px', height: 'auto' }} src={sketch}></img></a></li>
                       </ul>
                     </div>

@@ -25,9 +25,9 @@ export class Contact extends Component {
                   <div className="row">
                     <div className="col-lg-8 col-md-8 col-8">
                       <ul style={{ display: 'flex' }} className="logoGroup">
-                        <li><a href="https://github.com/mike-briggs" style={{ padding: '15px', paddingLeft: '0px', paddingTop: '10px' }} className=" techIcon" ><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={git}></img></a></li>
-                        <li><a href="https://www.linkedin.com/in/mike-briggs-06990a123/" style={{ padding: '15px', paddingLeft: '15px', paddingTop: '10px' }} className=" techIcon" ><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={linkedin}></img></a></li>
-                        <li><a href="mailto:michael.briggs@queensu.ca" style={{ padding: '15px', paddingLeft: '15px', paddingTop: '10px' }} className=" techIcon" ><img className="techIcon" style={{ paddingTop: '15px', width: '30px', height: 'auto' }} src={mail}></img></a></li>
+                        <li><a href="https://github.com/mike-briggs" target="_blank" style={{ padding: '15px', paddingLeft: '0px', paddingTop: '10px' }} className=" techIcon" ><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={git}></img></a></li>
+                        <li><a href="https://www.linkedin.com/in/mike-briggs-06990a123/" target="_blank" style={{ padding: '15px', paddingLeft: '15px', paddingTop: '10px' }} className=" techIcon" ><img className="techIcon" style={{ paddingTop: '10px', width: '40px', height: 'auto' }} src={linkedin}></img></a></li>
+                        <li><a href="mailto:michael.briggs@queensu.ca" target="_blank" style={{ padding: '15px', paddingLeft: '15px', paddingTop: '10px' }} className=" techIcon" ><img className="techIcon" style={{ paddingTop: '15px', width: '30px', height: 'auto' }} src={mail}></img></a></li>
                       </ul>
                     </div>
                     

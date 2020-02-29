@@ -24,13 +24,13 @@ export class Safe extends Component {
                   <h4 style={{ fontFamily: 'Raleway' }} className="">Website designed for Safe Dentistry inc. a start-up speacializing in dental office safety inspections. Helping ensure all dental offices follow proper processes and procedures. </h4>
                   <div className="row">
                     <div className="col-lg-8 col-md-8 col-8">
-                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>Tech Used</h5>
+                      <h5 style={{ paddingBottom: '20px', fontFamily: 'Raleway', fontWeight: 600, textAlign: 'left' }}>June 2019</h5>
                       
                       <TechUsed source1={sketch} source2={ps} source3={illustrator}/>
 
                     </div>
                     <div className="col-lg-4 col-md-4 col-4" style={{ paddingBottom: '20px' }}>
-                      <Button href="http://safedentistryinc.com" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#62cef3', color: 'white' }}>Site</Button>
+                      <Button href="http://safedentistryinc.com" target="_blank" className="main-button-slider" style={{ float: 'right', fontFamily: 'Raleway', fontWeight: 600, backgroundColor: '#62cef3', color: 'white' }}>Site</Button>
                     </div>
                   </div>
                 </div>
