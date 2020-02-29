@@ -109,7 +109,7 @@ export class OtherProjects extends Component {
             this.setState({ designActive: true })
             this.setState({ frontendActive: false })
 
-        } else if(cat == "Frontend"){
+        } else if(cat === "Frontend"){
             this.setState({ codeActive: false })
             this.setState({ designActive: false })
             this.setState({ frontendActive: true })
@@ -117,7 +117,7 @@ export class OtherProjects extends Component {
     }
 
     showAll(){
-        this.setState({category: "All",showAll:true, codeActive:false,designActive:false})
+        this.setState({category: "All",showAll:true, codeActive:false,designActive:false,frontendActive:false})
     }
 
     
@@ -226,7 +226,7 @@ export class OtherProjects extends Component {
                     <div className="col-lg-2"></div>
                     <div className="col-lg-7 col-md-8 col-sm-12 col-12 ">
                         <h1 style={{ fontFamily: 'Raleway', fontWeight: 600 }}>{this.state.category} Projects</h1>
-                        <p style={{ paddingBottom: '30px', fontFamily: 'Raleway', letterSpacing: '0.1pt' }} className="">Various projects gathered through independent consulting, summer work, and hobby programming. 2016-2020</p>
+                        <p style={{ paddingBottom: '30px', fontFamily: 'Raleway', lineHeight:'20pt',letterSpacing: '0.1pt' }} className="">Various projects gathered through independent consulting, summer work, and hobby programming. 2016-2020</p>
 
                     </div>
                     <div style={{ flexDirection: 'column' }} className="col-lg-3 col-md-4">
@@ -236,7 +236,7 @@ export class OtherProjects extends Component {
                         ><Icon name='th' />
 
                         </Button>
-                        <Button style={{ borderRadius:'100%',padding:'8px',fontSize:'16pt',float: 'left', transitionDuration: '0.5s', color: this.state.frontendActive ? "#fff" : "#000", backgroundColor: this.state.frontendActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt' }}
+                        <Button style={{ borderRadius:'100%',padding:'10px',fontSize:'16pt',float: 'left', transitionDuration: '0.5s', color: this.state.frontendActive ? "#fff" : "#000", backgroundColor: this.state.frontendActive ? "#000" : "transparent",borderColor:'#404040',border:'solid #fff',borderWeight:'2pt' }}
                             onClick={() => this.changeCategory("Frontend")} icon
                         ><Icon name='react' />
 
@@ -257,19 +257,15 @@ export class OtherProjects extends Component {
 
                     <div className="col-lg-2 col-md-1 col-sm-12 col-12"></div>
                     
-                    <ul style={{ display: 'flex',opacity:'.1',float:'left',textAlign:'left'}} className="logoGroup">
+                    <ul style={{ display: 'flex',opacity:'.1',float:'left',textAlign:'left',paddingTop:'20px'}} className="logoGroup">
                   <li><IconC link="" image={react} style={{ paddingLeft: '0px',display:this.state.codeActive ? 'none !important' : undefined}} /></li>
-                  <li><IconC link="" image={node} /></li>
-                  <li><IconC link="" image={sketch} /></li>
                   <li><IconC link="" image={java} /></li>
-                  <li><IconC link="" image={figma} /></li>
                   <li><IconC link="" image={js} /></li>
+                  <li><IconC link="" image={ai} /></li>
                   <li><IconC link="" image={ps} /></li>
+                  <li><IconC link="" image={figma} /></li>
                   <li><IconC link="" image={wordpress} /></li>
                   <li><IconC link="" image={python} /></li>
-                  <li><IconC link="" image={cpp} /></li>
-                  <li><IconC link="" image={qt} /></li>
-                  <li><IconC link="" image={ai} /></li>
 
                 </ul>
 
