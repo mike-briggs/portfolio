@@ -77,7 +77,10 @@ export class OtherProjects extends Component {
                     color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.openSoon, className: "", title: "Landlord-Tenant App", icon1: cpp, icon2: qt, icon3: ps, desc: "Lead agile development of C++ application to help tenants effectively communicate with their Landlords through messaging, maintenance requests, and rent payments."
                 },
                 {
-                    color: "#59a1ff", iconName:"android",type: "Frontend", year: "2019", onClick: this.openHaus, className: "", title: "HAUS Mobile App", icon1: java, icon2: ps, icon3: android, desc: "Tinder for Renting Houses! First year Capstone project developed in Android Studio. Oppourtunity to develop a business alongside the software to make it work."
+                    color: "#59a1ff", iconName:"android",type: "Frontend", year: "2017", onClick: this.openHaus, className: "", title: "HAUS Mobile App", icon1: java, icon2: ps, icon3: android, desc: "Tinder for Renting Houses! First year Capstone project developed in Android Studio. Oppourtunity to develop a business alongside the software to make it work."
+                },
+                {
+                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2020", onClick: this.openHaus, className: "", title: "Queen's Web Dev", icon1: react, icon2: sketch, icon3: figma, desc: "Queen's Web Development Club is a student run organization that teaches students how to build websites through tutorials, workshops and real practice."
                 }
             ], codeActive: false, designActive: false,frontendActive:false,currentTitle:"Not Set"
         }
@@ -236,22 +239,22 @@ export class OtherProjects extends Component {
                     </div>
                     <div className="col-lg-4 col-md-4">
                         
-                        <Button style={{float: 'left', transitionDuration: '0.5s', color: this.state.showAll ? "#fff" : "#59a1ff", backgroundColor: this.state.showAll ? "#59a1ff" : "transparent",borderColor:'#59a1ff',border:'solid #59a1ff 1px',borderWeight:'1px' }}
+                        <Button className="turnBlue" style={{float: 'left', transitionDuration: '0.5s', color: this.state.showAll ? "#fff" : "#59a1ff", backgroundColor: this.state.showAll ? "#59a1ff" : "transparent",borderColor:'#59a1ff',border:'solid #59a1ff 1px',borderWeight:'1px' }}
                             onClick={() => this.showAll()} icon circular
                         ><Icon name='th' />
 
                         </Button>
-                        <Button style={{padding:'10px',fontSize:'16pt',float: 'left', transitionDuration: '0.5s', color: this.state.frontendActive ? "#fff" : "#59a1ff", backgroundColor: this.state.frontendActive ? "#59a1ff" : "transparent",borderColor:'#404040',border:'solid #59a1ff 1px',borderWeight:'1x' }}
+                        <Button className="turnBlue" style={{padding:'10px',fontSize:'16pt',float: 'left', transitionDuration: '0.5s', color: this.state.frontendActive ? "#fff" : "#59a1ff", backgroundColor: this.state.frontendActive ? "#59a1ff" : "transparent",borderColor:'#404040',border:'solid #59a1ff 1px',borderWeight:'1x' }}
                             onClick={() => this.changeCategory("Frontend")} icon circular
                         ><Icon name='react' />
 
                         </Button>
-                        <Button style={{float: 'left',borderRadius:'100%', transitionDuration: '0.5s', color: this.state.codeActive ?"#fff" : "#59a1ff", backgroundColor: this.state.codeActive ? "#59a1ff" : "transparent",borderColor:'#404040',border:'solid #59a1ff 1px',borderWeight:'1px'}}
+                        <Button className="turnBlue" style={{float: 'left',borderRadius:'100%', transitionDuration: '0.5s', color: this.state.codeActive ?"#fff" : "#59a1ff", backgroundColor: this.state.codeActive ? "#59a1ff" : "transparent",borderColor:'#404040',border:'solid #59a1ff 1px',borderWeight:'1px'}}
                             onClick={() => this.changeCategory("Code")} icon 
                         ><Icon name='code' />
 
                         </Button>
-                        <Button style={{float: 'left', transitionDuration: '0.5s', color: this.state.designActive ? "#fff" : "#59a1ff", backgroundColor: this.state.designActive ? "#59a1ff" : "transparent",borderColor:'#404040',border:'solid #59a1ff 1px',borderWeight:'1px' }}
+                        <Button className="turnBlue" style={{float: 'left', transitionDuration: '0.5s', color: this.state.designActive ? "#fff" : "#59a1ff", backgroundColor: this.state.designActive ? "#59a1ff" : "transparent",borderColor:'#404040',border:'solid #59a1ff 1px',borderWeight:'1px' }}
                             onClick={() => this.changeCategory("Design")} icon circular
                         ><Icon name='pencil' />
 

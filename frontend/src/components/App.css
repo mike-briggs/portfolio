@@ -250,6 +250,11 @@ a.main-button-slider {
   color: #6cd34c;
 }
 
+.turnBlue:hover{
+  color:#fff !important;
+  background-color: #59a1ff !important;
+}
+
 .padding-bottom-top-60 {
   padding-top: 60px !important;
   padding-bottom: 60px !important;
