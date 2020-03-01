@@ -71,7 +71,7 @@ export class OtherProjects extends Component {
                     color: "#59a1ff", iconName:"pencil",type: "Design", year: "2020", onClick: ()=>window.open("https://www.figma.com/proto/wG7ZIz0ZDlt330kWFDed13/QMIX?node-id=246%3A30&viewport=764%2C155%2C0.10421545803546906&scaling=scale-down-width"), className: "", title: "QMIX Social Club", icon1: figma, icon2: ps, icon3: sketch, desc: "A new social club at Queen's University … that aims to provide a welcoming space for all students."
                 },
                 {
-                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: ()=>window.open("https://github.com/mike-briggs/portfolio"), className: "", title: "This Site", icon1: react, icon2: figma, icon3: ps, desc: "I'm a Software Engineer studying in my final year at Queen's University with a passion for frontend development. I'm graduating April 2020 and actively looking for full time positions."
+                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2020", onClick: ()=>window.open("https://github.com/mike-briggs/portfolio"), className: "", title: "This Site", icon1: react, icon2: figma, icon3: ps, desc: "I'm a Software Engineer studying in my final year at Queen's University with a passion for frontend development. I'm graduating April 2020 and actively looking for full time positions."
                 },
                 {
                     color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.openSoon, className: "", title: "Landlord-Tenant App", icon1: cpp, icon2: qt, icon3: ps, desc: "Lead agile development of C++ application to help tenants effectively communicate with their Landlords through messaging, maintenance requests, and rent payments."
@@ -229,12 +229,12 @@ export class OtherProjects extends Component {
                 </div>
                 <div className="row">
                     <div className="col-lg-2"></div>
-                    <div className="col-lg-7 col-md-8 col-sm-12 col-12 ">
+                    <div className="col-lg-6 col-md-8 col-sm-12 col-12 ">
                         <h1 style={{ fontFamily: 'Cabin', fontWeight: 600 }}>{this.state.category} Projects</h1>
                         <p style={{ paddingBottom: '30px', fontFamily: 'Cabin', lineHeight:'20pt',letterSpacing: '0.1pt' }} className="">Various projects gathered through independent consulting, summer work, and hobby programming. 2016-2020</p>
 
                     </div>
-                    <div className="col-lg-3 col-md-4">
+                    <div className="col-lg-4 col-md-4">
                         
                         <Button style={{float: 'left', transitionDuration: '0.5s', color: this.state.showAll ? "#fff" : "#59a1ff", backgroundColor: this.state.showAll ? "#59a1ff" : "transparent",borderColor:'#59a1ff',border:'solid #59a1ff 1px',borderWeight:'1px' }}
                             onClick={() => this.showAll()} icon circular
