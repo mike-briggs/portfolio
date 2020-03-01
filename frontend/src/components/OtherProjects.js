@@ -71,6 +71,9 @@ export class OtherProjects extends Component {
                     color: "#59a1ff", iconName:"pencil",type: "Design", year: "2020", onClick: ()=>window.open("https://www.figma.com/proto/wG7ZIz0ZDlt330kWFDed13/QMIX?node-id=246%3A30&viewport=764%2C155%2C0.10421545803546906&scaling=scale-down-width"), className: "", title: "QMIX Social Club", icon1: figma, icon2: ps, icon3: sketch, desc: "A new social club at Queen's University … that aims to provide a welcoming space for all students."
                 },
                 {
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.openSoon, className: "", title: "This Site", icon1: react, icon2: figma, icon3: ps, desc: "I'm a Software Engineer studying in my final year at Queen's University with a passion for frontend development. I'm graduating April 2020 and actively looking for full time positions. Please see my design and engineering portfolio below."
+                },
+                {
                     color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.openSoon, className: "", title: "Landlord-Tenant App", icon1: cpp, icon2: qt, icon3: ps, desc: "Lead agile development of C++ application to help tenants effectively communicate with their Landlords through messaging, maintenance requests, and rent payments."
                 },
                 {
