@@ -44,6 +44,9 @@ export class OtherProjects extends Component {
                     color: "#59a1ff", iconName:"pencil",type: "Design", year: "2019", onClick: this.open3, className: "", title: "Biotech Leadership", icon1: wordpress, icon2: js, icon3: php, desc: "Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services."
                 },
                 {
+                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2019", onClick: ()=>window.open("https://tickers.netlify.com"), className: "", title: "Stock Dashboard", icon1: react, icon2: js, icon3: figma, desc: "Browse stock tickers from various markets in real-time. View important stock insights and company data along with investing recommendations."
+                },
+                {
                     color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.open4, className: "", title: "Enbridge Station FAST",image:enbridge, icon1: js, icon2: ps, icon3: sketch, desc: "[Internal] - Station Field Assesment Survey Tool. Application to collect information about field asset integrity and report findings to management."
                 },
                 {
