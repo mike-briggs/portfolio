@@ -41,49 +41,49 @@ export class OtherProjects extends Component {
         this.state = {
             open: false,showAll:true, open2: false, open3: false, open4: false, openHaus: false, openReno: false, openPM: false, category: "All", projectList: "", codeList: [
                 {
-                    color: "#59a1ff", iconName:"pencil",type: "Design", year: "2019", onClick: this.open3, className: "", title: "Biotech Leadership", icon1: wordpress, icon2: js, icon3: php, desc: "Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services."
+                    color: "#59a1ff", iconName:"pencil",type: "Design", year: "2019",arrow:"chain", onClick: this.open3, className: "", title: "Biotech Leadership", icon1: wordpress, icon2: js, icon3: php, desc: "Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services."
                 },
                 {
-                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2019", onClick: ()=>window.open("https://tickers.netlify.com"), className: "", title: "Stock Dashboard", icon1: react, icon2: js, icon3: figma, desc: "Browse stock tickers from various markets in real-time. View important stock insights and company data along with investing recommendations."
+                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2020",arrow:"chain", onClick: ()=>window.open("https://tickers.netlify.com"), className: "", title: "Stock Dashboard", icon1: react, icon2: js, icon3: figma, desc: "Browse stock tickers from various markets in real-time. View important stock insights and company data along with recommendations."
                 },
                 {
-                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.open4, className: "", title: "Enbridge Station FAST",image:enbridge, icon1: js, icon2: ps, icon3: sketch, desc: "[Internal] - Station Field Assesment Survey Tool. Application to collect information about field asset integrity and report findings to management."
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2017",arrow:"caret right", onClick: this.open4, className: "", title: "Enbridge Station FAST",image:enbridge, icon1: js, icon2: ps, icon3: sketch, desc: "[Internal] - Station Field Assesment Survey Tool. Application to collect information about field asset integrity and report findings to management."
                 },
                 {
-                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.open("Test Title"), className: "", title: "Course Projects", icon1: java, icon2: python, icon3: "", desc: "Various algorithm implementations in Java with brute force and optimized approaches and comparisons. Simulated banking system in Python to practice common QA techniques."
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019",arrow:"github", onClick: this.open("Test Title"), className: "", title: "Course Projects", icon1: java, icon2: python, icon3: "", desc: "Various algorithm implementations in Java with brute force and optimized approaches and comparisons. Simulated banking system in Python to practice common QA techniques."
                 },
                 {
-                    color: "#59a1ff", iconName:"pencil",type: "Design", year: "2020", onClick: ()=>window.open("https://www.figma.com/proto/cvDTmlYK6qZVFkQawCAyOn/SparQ-Mockup?node-id=20%3A8&viewport=118%2C599%2C0.19171765446662903&scaling=scale-down-width"), className: "", title: "SparQ Studios", icon1: figma, icon2: ps, icon3: sketch, desc: "SparQ Studios is a makerspace and design studio that provides a wide range of tools, machinery, knowledge, and expertise so that you can bring your idea into a physical form. "
+                    color: "#59a1ff", iconName:"pencil",type: "Design", year: "2020",arrow:"chain", onClick: ()=>window.open("https://www.figma.com/proto/cvDTmlYK6qZVFkQawCAyOn/SparQ-Mockup?node-id=20%3A8&viewport=118%2C599%2C0.19171765446662903&scaling=scale-down-width"), className: "", title: "SparQ Studios", icon1: figma, icon2: ps, icon3: sketch, desc: "SparQ Studios is a makerspace and design studio that provides a wide range of tools, machinery, knowledge, and expertise so that you can bring your idea into a physical form. "
                 },  
                 {
-                    color: "#59a1ff", iconName:"pencil",type: "Design", year: "2019", onClick: this.open2, className: "", title: "SAFE Dentistry", icon1: figma, icon2: sketch, icon3: ps, desc: "Website designed for Safe Dentistry inc. a start-up speacializing in dental office safety inspections ensuring proper procedures."
+                    color: "#59a1ff", iconName:"pencil",type: "Design", year: "2019",arrow:"chain", onClick: this.open2, className: "", title: "SAFE Dentistry", icon1: figma, icon2: sketch, icon3: ps, desc: "Website designed for Safe Dentistry inc. a start-up speacializing in dental office safety inspections ensuring proper practices procedures are followed."
                 },
                 {
-                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2019", onClick: ()=>window.open("https://github.com/mike-briggs/fiscalfresh"), className: "", title: "Fiscal Fresh", icon1: react, icon2: python, icon3: sketch, desc: "Browse and search millions of healthy recipes, create a meal plan then continue to checkout. Required groceries will be auto added to Instacart."
+                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2020",arrow:"github", onClick: ()=>window.open("https://github.com/mike-briggs/fiscalfresh"), className: "", title: "Fiscal Fresh", icon1: react, icon2: python, icon3: sketch, desc: "Browse and search millions of healthy recipes, create a meal plan then continue to checkout. Required groceries will be auto added to Instacart."
                 },
                 {
-                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2019", onClick: ()=>window.open("https://github.com/mike-briggs/Space-HourLogger"), className: "", title: "Queen's Sci Formal", icon1: react, icon2: node, icon3: sketch, desc: "This mern web application keeps track of 400+ simultaneous volunteers putting together the space themed formal. Features User, Manager, & Admin."
+                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2019",arrow:"github", onClick: ()=>window.open("https://github.com/mike-briggs/Space-HourLogger"), className: "", title: "Queen's Sci Formal", icon1: react, icon2: node, icon3: sketch, desc: "This mern web application keeps track of 400+ simultaneous volunteers putting together the space themed formal. Features User, Manager, & Admin."
                 },
                 {
-                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.openPM, className: "", title: "Enbridge PM Tool", icon1: js, icon2: ps, icon3: sketch, desc: "[Internal] - Engineering Dept. Project Management Tool to allow PMs to submit status updates and display them on a compiled dashboard."
+                    color: "#59a1ff", iconName:"code",type: "Code", year: "2018",arrow:"caret right", onClick: this.openPM, className: "", title: "Enbridge PM Tool", icon1: js, icon2: ps, icon3: sketch, desc: "[Internal] - Engineering Dept. Project Management Tool to allow PMs to submit status updates and display them on a compiled dashboard."
                 },
                 {
-                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2019", onClick: this.openReno, className: "", title: "Reno Mobile App", icon1: react, icon2: ps, icon3: sketch, desc: "React Native application to help streamline finding contractors and tracks materials purchased, working hours, timeline etc."
+                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2019",arrow:"caret right", onClick: this.openReno, className: "", title: "Reno Mobile App", icon1: react, icon2: ps, icon3: sketch, desc: "React Native application to help streamline finding contractors and tracks materials purchased, working hours, timeline etc."
                 },
                 {
-                    color: "#59a1ff", iconName:"pencil",type: "Design", year: "2020", onClick: ()=>window.open("https://www.figma.com/proto/wG7ZIz0ZDlt330kWFDed13/QMIX?node-id=246%3A30&viewport=764%2C155%2C0.10421545803546906&scaling=scale-down-width"), className: "", title: "QMIX Social Club", icon1: figma, icon2: ps, icon3: sketch, desc: "A new social club at Queen's University … that aims to provide a welcoming space for all students."
+                    color: "#59a1ff", iconName:"pencil",type: "Design",arrow:"chain", year: "2020", onClick: ()=>window.open("https://www.figma.com/proto/wG7ZIz0ZDlt330kWFDed13/QMIX?node-id=246%3A30&viewport=764%2C155%2C0.10421545803546906&scaling=scale-down-width"), className: "", title: "QMIX Social Club", icon1: figma, icon2: ps, icon3: sketch, desc: "A new social club at Queen's University … that aims to provide a welcoming space for all students."
                 },
                 {
-                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2020", onClick: ()=>window.open("https://github.com/mike-briggs/portfolio"), className: "", title: "This Site", icon1: react, icon2: figma, icon3: ps, desc: "I'm a Software Engineer studying in my final year at Queen's University with a passion for frontend development. I'm graduating April 2020 and actively looking for full time positions."
+                    color: "#59a1ff", iconName:"react",type: "Frontend",arrow:"github", year: "2020", onClick: ()=>window.open("https://github.com/mike-briggs/portfolio"), className: "", title: "This Site", icon1: react, icon2: figma, icon3: ps, desc: "I'm a Software Engineer studying in my final year at Queen's University with a passion for frontend development."
                 },
                 {
-                    color: "#59a1ff", iconName:"code",type: "Code", year: "2019", onClick: this.openSoon, className: "", title: "Landlord-Tenant App", icon1: cpp, icon2: qt, icon3: ps, desc: "Lead agile development of C++ application to help tenants effectively communicate with their Landlords through messaging, maintenance requests, and rent payments."
+                    color: "#59a1ff", iconName:"code",type: "Code",arrow:"caret right", year: "2018", onClick: this.openSoon, className: "", title: "Landlord-Tenant App", icon1: cpp, icon2: qt, icon3: ps, desc: "Lead agile development of C++ application to help tenants effectively communicate with their Landlords through messaging, maintenance requests, and rent payments."
                 },
                 {
-                    color: "#59a1ff", iconName:"android",type: "Frontend", year: "2017", onClick: this.openHaus, className: "", title: "HAUS Mobile App", icon1: java, icon2: ps, icon3: android, desc: "Tinder for Renting Houses! First year Capstone project developed in Android Studio. Oppourtunity to develop a business alongside the software to make it work."
+                    color: "#59a1ff", iconName:"android",arrow:"caret right",type: "Frontend", year: "2017", onClick: this.openHaus, className: "", title: "HAUS Mobile App", icon1: java, icon2: ps, icon3: android, desc: "Tinder for Renting Houses! First year Capstone project developed in Android Studio. Oppourtunity to develop a business alongside the software to make it work."
                 },
                 {
-                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2020", onClick: this.openHaus, className: "", title: "Queen's Web Dev", icon1: react, icon2: sketch, icon3: figma, desc: "Queen's Web Development Club is a student run organization that teaches students how to build websites through tutorials, workshops and real practice."
+                    color: "#59a1ff", iconName:"react",arrow:"github",type: "Frontend", year: "2019", onClick: this.openHaus, className: "", title: "Queen's Web Dev", icon1: react, icon2: sketch, icon3: figma, desc: "Queen's Web Development Club is a student run organization that teaches students how to build websites through tutorials, workshops and real practice."
                 }
             ], codeActive: false, designActive: false,frontendActive:false,currentTitle:"Not Set"
         }
@@ -159,7 +159,7 @@ export class OtherProjects extends Component {
             }
         ]
         return (
-            <div className="container" >
+            <div className="container" id="projects" >
                 
                 <div className="row">
                     <div className="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -233,7 +233,7 @@ export class OtherProjects extends Component {
                         </Modal>
                     </div>
                 </div>
-                <div className="row">
+                <div style={{paddingTop:'60px'}} className="row">
                     <div className="col-lg-2"></div>
                     <div className="col-lg-6 col-md-8 col-sm-12 col-12 ">
                         <h1 style={{ fontFamily: 'Cabin', fontWeight: 600 }}>{this.state.category} Projects</h1>
@@ -293,13 +293,13 @@ export class OtherProjects extends Component {
 
                         ?
                         this.state.codeList.map(item => (
-                            <Project iconName={item.iconName} color={item.color} onClick={item.onClick} year="2019" className="" title={item.title} icon1={item.icon1} icon2={item.icon2} icon3={item.icon3} desc={item.desc} />
+                            <Project iconName={item.iconName} arrow={item.arrow} color={item.color} onClick={item.onClick} year={item.year} className="" title={item.title} icon1={item.icon1} icon2={item.icon2} icon3={item.icon3} desc={item.desc} />
                         ))
 
                         :
 
                         this.state.codeList.filter(item => item.type === this.state.category).map(item => (
-                            <Project iconName={item.iconName} color={item.color} onClick={item.onClick} year="2019" className="" title={item.title} icon1={item.icon1} icon2={item.icon2} icon3={item.icon3} desc={item.desc} />
+                            <Project iconName={item.iconName} arrow={item.arrow} color={item.color} onClick={item.onClick} year={item.year} className="" title={item.title} icon1={item.icon1} icon2={item.icon2} icon3={item.icon3} desc={item.desc} />
                         ))
 
                     }

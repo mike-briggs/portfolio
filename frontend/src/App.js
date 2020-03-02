@@ -47,7 +47,7 @@ export class App extends Component {
         <hr></hr>
         <Formal/>
         <QWEB/>
-        <Contact/>
+        <Contact />
         <ProjectCard/>
         <hr style={{padding:'20px',paddingAbove:'40px'}}></hr>
         <div className="container">

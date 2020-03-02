@@ -69,13 +69,13 @@ export class ProjectCard extends Component {
         <h1 style={hide}>{this.props.title}</h1>
 
         <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-          <p style={hide2} className="">{this.props.desc}
-            <hr></hr>
-          </p>
+          <p style={hide2} className="">{this.props.desc}</p>
+          
           <div className="row">
             <div className="col-lg-8 col-md-8 col-8">
               <div style={hide3}>
                 <ul style={{ display: 'flex'}} className="logoGroup">
+                  <li><p style={hide2,{fontSize:'12pt',fontWeight:'700',paddingTop:'4px'}} className="">{this.props.year}</p></li>
                   <li><IconC link="" image={this.props.icon1} style={{ paddingLeft: '0px' }} /></li>
                   <li><IconC link="" image={this.props.icon2} /></li>
                   <li><IconC link="" image={this.props.icon3} /></li>
@@ -84,9 +84,9 @@ export class ProjectCard extends Component {
             </div>
 
           </div>
-          <h4 style={{ float: 'right',fontColor:'white' }} onClick={this.props.onClick} style={show}>View Project<Button style={{ float: 'right', marginRight:'-8px',marginLeft:'10px',padding:'4px',backgroundColor:'white',transitionDuration:'0.5s',fontSize:'14pt', color:this.props.color}}
+          <h4 style={{ float: 'right',fontColor:'white' }} onClick={this.props.onClick} style={show}>View Project<Button style={{ float: 'right', marginRight:'-8px',marginLeft:'10px',padding:'7px',backgroundColor:'white',transitionDuration:'0.5s',fontSize:'12pt', color:this.props.color}}
           onClick={this.close4} icon circular
-        ><Icon name='caret right' />
+        ><Icon name={this.props.arrow} />
 
         </Button></h4>
         </div>
