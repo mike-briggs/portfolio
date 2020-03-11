@@ -41,7 +41,7 @@ export class OtherProjects extends Component {
         this.state = {
             open: false,showAll:true, open2: false, open3: false, open4: false, openHaus: false, openReno: false, openPM: false, category: "All", projectList: "", codeList: [
                 {
-                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2020",arrow:"Frontend", onClick: ()=>window.open("https://github.com/mike-briggs/AutoGroceriesMobile"), className: "", title: "Auto Groceries Mobile", icon1: react, icon2: python, icon3: figma, desc: "Mobile cross-platform application that allows users to search for recipes, then convert them to groceries based on ingredients."
+                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2020",arrow:"github", onClick: ()=>window.open("https://github.com/mike-briggs/AutoGroceriesMobile"), className: "", title: "Auto Groceries Mobile", icon1: react, icon2: python, icon3: figma, desc: "Mobile cross-platform application that allows users to search for recipes, then convert them to groceries based on ingredients."
                 },
                 {
                     color: "#59a1ff", iconName:"pencil",type: "Design", year: "2019",arrow:"chain", onClick: this.open3, className: "", title: "Biotech Leadership", icon1: wordpress, icon2: js, icon3: php, desc: "Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services."
