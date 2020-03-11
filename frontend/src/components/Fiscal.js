@@ -17,7 +17,7 @@ import TechUsed from './techused.js'
 export class Fiscal extends Component {
   render() {
     return (
-      <div style={{ marginTop: '0px', opacity: '0.9' }} className="welcome-area" ref={this.props.fiscal} id="fiscal">
+      <div style={{ marginTop: '0px', opacity: '0.9' }} className="" ref={this.props.fiscal} id="fiscal">
         <div className="header-text">
             <div style={{ padding: '0px' }} className="row" >
               <div style={{ paddingTop: '50px', backgroundColor: 'white', borderRadius: '0px' }} className="col-lg-6 col-md-6 col-sm-12">
