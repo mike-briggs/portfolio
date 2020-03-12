@@ -86,7 +86,7 @@ export class OtherProjects extends Component {
                     color: "#59a1ff", iconName:"android",arrow:"caret right",type: "Frontend", year: "2017", onClick: this.openHaus, className: "", title: "HAUS Mobile App", icon1: java, icon2: ps, icon3: android, desc: "Tinder for Renting Houses! First year Capstone project developed in Android Studio. Oppourtunity to develop a business alongside the software to make it work."
                 },
                 {
-                    color: "#59a1ff", iconName:"react",arrow:"github",type: "Frontend", year: "2019", onClick: this.openHaus, className: "", title: "Queen's Web Dev", icon1: react, icon2: sketch, icon3: figma, desc: "Queen's Web Development Club is a student run organization that teaches students how to build websites through tutorials, workshops and real practice."
+                    color: "#59a1ff", iconName:"react",arrow:"github",type: "Frontend", year: "2019", onClick: ()=>window.open("https://qweb.dev"), className: "", title: "Queen's Web Dev", icon1: react, icon2: sketch, icon3: figma, desc: "Queen's Web Development Club is a student run organization that teaches students how to build websites through tutorials, workshops and real practice."
                 }
             ], codeActive: false, designActive: false,frontendActive:false,currentTitle:"Not Set"
         }
