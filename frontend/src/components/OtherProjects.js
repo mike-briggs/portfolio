@@ -165,7 +165,7 @@ export class OtherProjects extends Component {
             }
         ]
         return (
-            <div className="container" id="projects" >
+            <div className="" id="projects" >
                 
                 <div className="row">
                     <div className="col-lg-12 col-md-12 col-sm-12 col-12">
