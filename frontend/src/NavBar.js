@@ -36,11 +36,11 @@ export class NavBar extends Component {
                     <div className="row">
                         <div className="col-12">
                             <nav className="main-nav">
-                                <div className="container">
-                                    <a href="#" className="logo" style={{ color: 'black' }}>
+                                <div className="">
+                                    <a href="#" className="logo" style={{paddingLeft:'30px', color: 'black' }}>
                                         <h2 style={{ color: 'rgb(10, 10, 10)',fontFamily:'Cabin',  marginTop:'0px',fontSize: '18px', fontWeight: '600', marginTop: '0px', letterSpacing: '0' }}> Mike Briggs</h2>
                                     </a>
-                                    <div style={{float:'right', paddingTop: '7px'}}>
+                                    <div style={{float:'right', paddingTop: '7px',paddingRight:'30px', }}>
                                     <ul style={{ display: 'flex' ,paddingTop:'5px'}} className="logoGroup">
                                         <li><a href="#projects"><Icon size={20} style={{paddingTop:'2px',fontSize:'12pt'}} name="th"/></a></li>
                                         <li><IconC link="https://github.com/mike-briggs" target="_blank" image={git}/></li>
