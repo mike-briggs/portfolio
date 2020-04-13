@@ -21,17 +21,17 @@ import "slick-carousel/slick/slick-theme.css";
 export class Header extends Component {
   render() {
     return (
-      <div style={{ marginTop: '0px', height: '100vh', backgroundImage: 'none' }} className="welcome-area" id="welcome">
+      <div style={{ marginTop: '0px', backgroundImage: 'none' }} className="welcome-area" id="welcome">
         <div className="header-text">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-2 col-md-2">
               </div>
-              <div className="col-lg-8 col-md-8 col-sm-12 spacingName">
+              <div className="col-lg-6 col-md-8 col-sm-12 spacingName">
                 <h1 style={{ paddingLeft: '15px', fontFamily: 'Cabin', fontWeight: 600 }}><ReactTypingEffect
                   text={["Hi I'm Mike Briggs.", "Frontend Engineer", "Software Engineer"]} speed={80} typingDelay={0} //text=["Hello.", "World!"]
                 /></h1>
                 <div className="col-lg-10 col-md-10 col-sm-12 col-12">
-                  <h4 style={{ fontFamily: 'Cabin' }} className="">I'm a Software Engineer studying in my final year at Queen's University with a passion for frontend development. I'm graduating April 2020 and actively looking for full time positions. Please see my design and engineering portfolio below.</h4>
+                  <h4 style={{ fontFamily: 'Cabin' }} className="">I'm a Software Engineer studying in my final year at Queen's University with a passion for frontend development. I'm graduating December 2020 and actively looking for full time positions. Please see my design and engineering portfolio below.</h4>
                   <div className="row">
                     <div className="col-lg-8 col-md-8 col-8">
                       <h5 style={{ paddingBottom: '0px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>Tech I Use</h5>

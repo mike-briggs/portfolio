@@ -24,7 +24,7 @@ export class QWEB extends Component {
                   text={["Queen's Web Development", "Design Executive"]} speed={200} typingDelay={200} //text=["Hello.", "World!"]
                 /></h1>
                 <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                  <h4 style={{ paddingLeft: '15px', textAlign: 'center', fontFamily: 'Cabin', color: 'white' }} className="">Queen's Web Development Club is a student run organization that teaches students how to build websites through tutorials, workshops and real practice.</h4>
+                  <h4 style={{ paddingLeft: '15px', textAlign: 'center', fontFamily: 'Cabin', color: 'white',fontSize:'1em' }} className="">Queen's Web Development Club is a student run organization that teaches students how to build websites through tutorials, workshops and real practice.</h4>
                   <div className="row">
                     <div className="col-lg-1 col-md-1 col-1"></div>
                     <div className="col-lg-6 col-md-6 col-8">

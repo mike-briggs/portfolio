@@ -16,14 +16,14 @@ import "slick-carousel/slick/slick-theme.css";
 export class Formal extends Component {
   render() {
     return (
-      <div style={{ marginTop: '0px', backgroundImage: 'none' }} className="welcome-area" id="sci">
+      <div style={{ marginTop: '0px', backgroundImage: 'none',paddingBottom:'100px' }} id="sci">
         <div className="header-text">
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-1 col-md-1"></div>
               <div className="col-lg-6 col-md-12 col-sm-12 col-12 spacingSci">
-                <h1 style={{ paddingLeft: '15px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>Queen's Engineering Formal</h1>
+                <h1 style={{ paddingLeft: '15px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left',paddingBottom:'20px' }}>Queen's Engineering Formal</h1>
                 <div className="col-lg-10 col-md-10 col-sm-12 col-12">
-                  <h4 style={{ fontFamily: 'Cabin' }} className="">Sci Formal is a celebration for all of Queen's Engineering held annually. This mern web application keeps track of 400+ simultaneous volunteers putting together the space themed formal. Features User, Manager, &amp; Admin sign-in with different access levels. Managers can start the hour logging process while admins are able to add or remove hours from specific students. Users can sign in and view how many hours they have left.</h4>
+                  <h4 style={{ fontFamily: 'Cabin', fontWeight:'400', fontSize:'1em',lineHeight:'2em',paddingBottom:'20px' }} className="">Sci Formal is a celebration for all of Queen's Engineering held annually. This mern web application keeps track of 400+ simultaneous volunteers putting together the space themed formal. Features User, Manager, &amp; Admin sign-in with different access levels. Managers can start the hour logging process while admins are able to add or remove hours from specific students. Users can sign in and view how many hours they have left.</h4>
                   <div className="row">
                     <div className="col-lg-8 col-md-8 col-8">
                       <h5 style={{ paddingBottom: '5px', fontFamily: 'Cabin', fontWeight: 600, textAlign: 'left' }}>July 2019</h5>
@@ -44,7 +44,7 @@ export class Formal extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5 col-md-12 col-sm-12 col-12">
+              <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                 <img style={{ width: '100%', height: 'auto' }} src={space}></img>
               </div>
             </div>
