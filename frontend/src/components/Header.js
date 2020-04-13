@@ -26,7 +26,7 @@ export class Header extends Component {
             <div style={{ padding: '0px' }} className="row" >
               <div className="col-lg-2 col-md-2">
               </div>
-              <div className="col-lg-6 col-md-8 col-sm-12 ">
+              <div className="col-lg-6 col-md-8 col-sm-12 spacingName">
                 <h1 style={{ paddingLeft: '15px', fontFamily: 'Cabin', fontWeight: 600 }}><ReactTypingEffect
                   text={["Hi I'm Mike Briggs.", "Frontend Engineer", "Software Engineer"]} speed={80} typingDelay={0} //text=["Hello.", "World!"]
                 /></h1>
