@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import './App.css'
 import '../assets/css/bootstrap.min.css'
 import '../assets/css/font-awesome.css'
-import space from '../assets/images/space_cutout.png'
+import space from '../assets/images/SPACE.png'
 import sketch from '../assets/images/sketch.png'
 import react from '../assets/images/react.png'
 import node from '../assets/images/node.png'
@@ -44,8 +44,8 @@ export class Formal extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-12 col-sm-12 col-12">
-                <img style={{ width: '100%', height: 'auto' }} src={space}></img>
+              <div style={{paddingTop:'50px'}} className="col-lg-4 col-md-12 col-sm-12 col-12">
+                <img style={{ width: '100%', height: 'auto',border:'solid 1px #dddddd',borderRadius:'20px' }} src={space}></img>
               </div>
             </div>
           </div>

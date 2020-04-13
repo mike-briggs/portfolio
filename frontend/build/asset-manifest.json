@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.5e283158.chunk.css",
-    "main.js": "/static/js/main.6fa224c7.chunk.js",
-    "main.js.map": "/static/js/main.6fa224c7.chunk.js.map",
+    "main.js": "/static/js/main.829afd1e.chunk.js",
+    "main.js.map": "/static/js/main.829afd1e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cea588d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.cea588d5.js.map",
     "static/css/2.c60feeff.chunk.css": "/static/css/2.c60feeff.chunk.css",
-    "static/js/2.194ddebf.chunk.js": "/static/js/2.194ddebf.chunk.js",
-    "static/js/2.194ddebf.chunk.js.map": "/static/js/2.194ddebf.chunk.js.map",
+    "static/js/2.7954c178.chunk.js": "/static/js/2.7954c178.chunk.js",
+    "static/js/2.7954c178.chunk.js.map": "/static/js/2.7954c178.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.83201b15ad0d651fbaab76e5bc3d6bc8.js": "/precache-manifest.83201b15ad0d651fbaab76e5bc3d6bc8.js",
+    "precache-manifest.e28f633497269ce79fea778c155bc66b.js": "/precache-manifest.e28f633497269ce79fea778c155bc66b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c60feeff.chunk.css.map": "/static/css/2.c60feeff.chunk.css.map",
     "static/css/main.5e283158.chunk.css.map": "/static/css/main.5e283158.chunk.css.map",
-    "static/js/2.194ddebf.chunk.js.LICENSE.txt": "/static/js/2.194ddebf.chunk.js.LICENSE.txt",
+    "static/js/2.7954c178.chunk.js.LICENSE.txt": "/static/js/2.7954c178.chunk.js.LICENSE.txt",
     "static/media/Flowchart.png": "/static/media/Flowchart.267b68c3.png",
     "static/media/HAUS.png": "/static/media/HAUS.30772731.png",
     "static/media/PM_Dashboard.png": "/static/media/PM_Dashboard.063140bc.png",
     "static/media/Reno.png": "/static/media/Reno.5795f3f8.png",
+    "static/media/SPACE.png": "/static/media/SPACE.6d15dd38.png",
     "static/media/btc-side.png": "/static/media/btc-side.04be3fd5.png",
     "static/media/drone.png": "/static/media/drone.bbd27a96.png",
     "static/media/enbridge.jpg": "/static/media/enbridge.bbc79e9f.jpg",
@@ -27,14 +28,13 @@
     "static/media/react.png": "/static/media/react.4a883f0a.png",
     "static/media/safe_dentistry.svg": "/static/media/safe_dentistry.c12813e1.svg",
     "static/media/sayblue.jpg": "/static/media/sayblue.1dfcc851.jpg",
-    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
-    "static/media/space_cutout.png": "/static/media/space_cutout.6cdbfad0.png"
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cea588d5.js",
     "static/css/2.c60feeff.chunk.css",
-    "static/js/2.194ddebf.chunk.js",
+    "static/js/2.7954c178.chunk.js",
     "static/css/main.5e283158.chunk.css",
-    "static/js/main.6fa224c7.chunk.js"
+    "static/js/main.829afd1e.chunk.js"
   ]
 }

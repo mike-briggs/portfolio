@@ -44,6 +44,9 @@ export class OtherProjects extends Component {
                     color: "#59a1ff", iconName:"react",type: "Frontend", year: "2020",arrow:"github", onClick: ()=>window.open("https://github.com/mike-briggs/AutoGroceriesMobile"), className: "", title: "Auto Groceries Mobile", icon1: react, icon2: python, icon3: figma, desc: "Mobile cross-platform application that allows users to search for recipes, then convert them to groceries based on ingredients."
                 },
                 {
+                    color: "#59a1ff", iconName:"react",type: "Frontend", year: "2020",arrow:"chain", onClick: ()=>window.open("https://clearweb.agency"), className: "", title: "Clearweb Agency", icon1: react, icon2: python, icon3: figma, desc: "Web agency providing reasonably priced simple modern design to small & medium sized businesses."
+                },
+                {
                     color: "#59a1ff", iconName:"pencil",type: "Design", year: "2019",arrow:"chain", onClick: this.open3, className: "", title: "Biotech Leadership", icon1: wordpress, icon2: js, icon3: php, desc: "Website created for a start-up consulting firm working with multinational pharmaceutical companies offering leadership services."
                 },
                 {
